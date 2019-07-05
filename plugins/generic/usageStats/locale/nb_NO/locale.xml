@@ -26,7 +26,6 @@
 	<message key="plugins.reports.usageStats.report.description">OJS standard rapport over brukerstatistikk *(COUNTER-klar)</message>
 	<message key="plugins.reports.usageStats.metricType">OJS/COUNTER</message>
 	<message key="plugins.reports.usageStats.metricType.full">Open Journal Systems statistikk (COUNTER-klar)</message>
-	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.siteWide">Hvert enkelt tidsskrift kan overstyre disse innstillingene fra programtilleggssiden sin</message>
 	<message key="plugins.generic.usageStats.optout.description"><![CDATA[<h3>Generell personvernsinformasjon</h3>
         <p>Gå til vår <a href="{$privacyStatementUrl}">erklæring om personvern</a>.</p>
         <h3>Brukerstatistikk</h3>
@@ -40,4 +39,71 @@
         <li>Nettleser</li>
         </ul>
         <p>Det samlede datamateriale er bare brukt for evaluering. Ingen IP-adresser er knyttet til brukeridentiteter. Det er teknisk umulig å spore et spesifikt datasett til en spesifikk IP-adresse.</p>]]></message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption">Innstilling for dataintegritet</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath">Filsti til anonymiseringssalt</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid">Saltet er ikke skrivbart</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.requirements">For å sikre dataintegritet må du spesifisere en fillesbar og skrivbar av nettbrukeren for å inneholde en tilfeldig generert saltverdi. Denne filen må IKKE sikkerhetskopieres for å sikre personvernbeskyttelse. Saltet er tilfeldig generert enten ved hjelp av: funksjonen mcrypt_create_iv, som krever PHP mcrypt; funksjonen openssl_random_pseudo_bytes, som krever PHP openssl; filen / dev / urandom, som bare fungerer på * nix-systemer; eller funksjonen mt_rand, som ikke er kryptografisk trygt. Hvis du bruker en Windows-server, må du derfor sørge for at du installerer enten PHP mcrypt eller openssl for å få kryptografisk sikkert generert salt.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.description">Aktiver dette alternativet for å bruke en pluginversjon som respekterer personvernlovgivningen, det vil si at logging har IP-adresser, informerer brukerne om sporingen og gir et alternativ for valg av brukere. Merk: Når du bruker dette alternativet, vil du ikke kunne bruke geo-funksjonene til plugin-modulen.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt">Aktivering av dataintegritet krever en saltfil.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity">Aktivering av dataintegritet ekskluderer By som en valgfri statistikk.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion">Aktivering av personvernet ekskluderer region som en valgfri statistikk.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyCheckbox">Sørg for dataintegritet</message>
+	<message key="plugins.generic.usageStats.settings.optionalColumns">Valgfri statistisk informasjon</message>
+	<message key="plugins.generic.usageStats.settings.optionalColumns.description">Aktiver eller deaktiver samlingen av følgende valgfrie opplysninger. Dette vil påvirke eventuelle statistiske rapporter du kan hente, og vil også ha innvirkning på databasestørrelsen. ENDRE IKKE, med mindre du forstår hva du gjør.</message>
+	<message key="plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion">Den valgfrie kolonnen "By" krever valgfri kolonne "Region".</message>
+	<message key="plugins.generic.usageStats.settings.archives">Arkiv</message>
+	<message key="plugins.generic.usageStats.settings.compressArchives.description">Aktiver dette alternativet for å komprimere arkiverte loggfiler ved hjelp av gzip-verktøyet (du må konfigurere gzip-innstillingen i config.inc.php). Hvis du har et høyt trafikksted, er det en god ide å aktivere dette, slik at du kan spare litt ekstra diskplass.</message>
+	<message key="plugins.generic.usageStats.settings.compressArchives">Komprimer arkiv</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions">Statistikvisningsalternativer</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.contextWide">Disse innstillingene blir bare brukt på brukstatistikk på {$contextName}.</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.display">Vis diagram med innsendingsstatistikk for leseren</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType">Velg type diagramm for å vise nedlastingsstatistikken</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar">Søylediagram</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line">Linjediagram</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount">Definer maksimalt antall data som skal presenteres samtidig for et bestemt x-akse-punkt. En høyere verdi kan generere vanskelige å forstå diagrammer. Noe mellom 3 og 5 er trygt.</message>
+	<message key="plugins.generic.usageStats.usageStatsLoaderName">Bruksstatistikk fillasteroppgave</message>
+	<message key="plugins.generic.usageStats.removeUrlError">Linjenummeret {$lineNumber} fra filen {$file} inneholder en URL som systemet ikke kan fjerne basisadressen fra.</message>
+	<message key="plugins.generic.usageStats.loadDataError">Kunne ikke laste data hentet fra fil {$file}. Filen ble flyttet til scenen igjen.</message>
+	<message key="plugins.generic.usageStats.pluginNotEnabled">Brukerstatistikkplugin er deaktivert. Ingen loggfiler behandlet.</message>
+	<message key="plugins.generic.usageStats.processingPathNotEmpty">Katalogen {$directory} er ikke tom. Dette kan indikere en tidligere mislykket prosess, eller en samtidig kjørende prosess. Denne filen blir automatisk opparbeidet hvis du også bruker scheduledTasksAutoStage.xml, ellers må du manuelt flytte noen foreldreløse filer i behandlingskatalogen tilbake til scenekatalogen.</message>
+	<message key="plugins.generic.usageStats.optout.displayName">Bruksstatistikk personverninformasjon</message>
+	<message key="plugins.generic.usageStats.optout.title">Bruksstatistikkinformasjon</message>
+	<message key="plugins.generic.usageStats.optout.shortDesc"><![CDATA[Vi logger anonym brukstatistikk. Vennligst les <a href="{$privacyInfo}"> personverninformasjonen </a> for detaljer.]]></message>
+	<message key="plugins.generic.usageStats.optout.done"><![CDATA[<p>Du har valgt vekk innsamling av bruksstatistikk. Mens du ser denne meldingen, blir det ikke oppsamlet statikk fra bruken av dette nettstedet. Klikk på knappen nedenfor for å omgjøre din beslutning.</p>]]></message>
+	<message key="plugins.generic.usageStats.optin">Aktiver innsamling av bruksstatistikk</message>
+	<message key="plugins.generic.usageStats.optout">Deaktiver innsamling av bruksstatistikk</message>
+	<message key="plugins.generic.usageStats.optout.cookie"><![CDATA[<p> Hvis du ønsker det, kan du velge bort innstamling av bruksstatistikk. Ved å klikke på valgknappen nedenfor, kan du aktivt bestemme seg for å delta i statistisk analyse. Når du klikker på knappen "Aktiver innsamling av bruksstatistikk", opprettes <em> informasjonskapsel </ em> på systemet ditt for å lagre avgjørelsen. Hvis personverninnstillingene i nettleseren din fører til at informasjonskapsler slettes automatisk, må du gjøre detet om igjen neste gang du får tilgang til denne nettsiden. Cookien er bare gyldig for en nettleser. Hvis du bruker en annen nettleser, må du gjøre valget igjen. Ingen individuell informasjon lagres i denne informasjonskapselen. Denne cookie gjelder for ett år etter siste tilgang. </p>
+<p> Vær oppmerksom på at generelle serverlogger ikke påvirkes av din beslutning om å velge bort den detaljerte evalueringsprosessen. Vennligst se vår generelle <a href="{$privacyStatementUrl}"> personvernerklæring </a>. </p>]]></message>
+	<message key="plugins.generic.usageStats.statsSum">Sum av alle filnedlastinger</message>
+	<message key="plugins.generic.usageStats.noStats">Nedlastingsdata er ikke tilgjengelig enda</message>
+	<message key="plugins.generic.usageStats.monthInitials">Jan Feb Mar Apr Mai Jun Jul Aug Sep Okt Nov Des</message>
+	<message key="plugins.generic.usageStats.downloads">Nedlastinger</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.ojs2">Hvert tidsskrift kan overstyre disse innstillingene fra tidsskriftets programtillegg-side.</message>
+	<message key="plugins.generic.usageStats.optout.description.long.ojs2"><![CDATA[<h3> Generell informasjon om personvern </h3>
+<p> Vennligst se vår generelle <a href="{$privacyStatementUrl}"> personvernerklæring </a>. </p>
+<h3>Bruksstatistikk </h3>
+<p> For å kunne analysere bruken og virkningen av vår journal og de publiserte artiklene samler og logger vi tilgang til journalens hjemmeside, utgaver, artikler, gallerier og tilleggsfiler. I prosessen er alle data anonymisert. Ingen personlig informasjon er logget. IP-adresser anonymiseres ved å ha hashed (bruk <em> SHA 256 </ em>) i kombinasjon med <em> sikre 64 tegn langt salt </ em> som automatisk blir <em> tilfeldig generert og overstyrt på daglig basis < / em>. Derfor kan ikke IP-adresser rekonstrueres. </p>
+<p> Følgende informasjon er samlet ved siden av de anonyme IP-adressene: </p>
+<ul>
+<li> Tilgangstype (dvs. administrativ) </li>
+<li> Forespørselstid </li>
+<li> Forespurt nettadresse </li>
+<li> HTTP-statuskode </li>
+<li> Browser </li>
+</ul>
+<p> Samlet data brukes kun til evalueringsformål. Ingen IP-adresser er kartlagt til bruker-IDer. Det er teknisk umulig å spore et bestemt sett med data til en bestemt IP-adresse. </p>]]></message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp">Hvert forlag kan overstyre disse innstillingene fra forlagets programtilleggs-side.</message>
+	<message key="plugins.generic.usageStats.optout.description.long.omp"><![CDATA[<h3> Generell informasjon om personvern </ h3>
+<p> Vennligst se vår generelle <a href="{$privacyStatementUrl}"> personvernerklæring </a>. </p>
+<h3> Brukestatistikk </ h3>
+<p> For å kunne analysere bruken og virkningen av våre publikasjoner samler og logger vi inn tilgang til startsiden, kategorier, serier, bøker og filer. I prosessen er alle data anonymisert. Ingen personlig informasjon er logget. IP-adresser anonymiseres ved å ha hashed (bruk <em> SHA 256 </em>) i kombinasjon med <em> sikre 64 tegn langt salt </em> som automatisk blir <em> tilfeldig generert og overstyrt på daglig basis < / em>. Derfor kan ikke IP-adresser rekonstrueres. </p>
+<p> Følgende informasjon er samlet ved siden av de anonyme IP-adressene: </p>
+<ul>
+<li> Tilgangstype (dvs. administrativ) </li>
+<li> Forespørselstid </li>
+<li> Forespurt nettadresse </li>
+<li> HTTP-statuskode </li>
+<Li> Browser </li>
+</ul>
+<p> Samlet data brukes kun til evalueringsformål. Ingen IP-adresser er kartlagt til bruker-IDer. Det er teknisk umulig å spore et bestemt sett med data til en bestemt IP-adresse. </p>]]></message>
 </locale>
