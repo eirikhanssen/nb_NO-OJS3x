@@ -42,7 +42,6 @@
 	<message key="admin.server.apacheVersion">Apache-versjon</message>
 	<message key="admin.server.dbDriver">Databasedriver</message>
 	<message key="admin.server.dbVersion">Versjon av databaseserver</message>
-	<message key="admin.serverInformationDescription"><![CDATA[Operativsystem og serverens programvareversjoner. Klikk på <span class="highlight">«Mer PHP-informasjon»</span> for å se flere detaljer om PHP-konfigurasjonen til denne serveren]]></message>
 	<message key="admin.serverInformation">Serverinformasjon</message>
 	<message key="admin.server.phpVersion">PHP-versjon</message>
 	<message key="admin.server.platform">OS-plattform</message>
@@ -57,8 +56,6 @@
 	<message key="admin.settings.homeHeaderImageInvalid">Ugyldig filformat. Gyldig filformat: .gif, .jpg eller .png.</message>
 	<message key="admin.settings.introduction">Innledning</message>
 	<message key="admin.settings.minPasswordLength">Minste passordlengde (tegn)</message>
-	<message key="admin.settings.oaiRegistration">Registrer nettstedet for indeksering (Metadata Harvesting)</message>
-	<message key="admin.settings.passwordCharacters">Tegn</message>
 	<message key="admin.settings.siteLanguage">Nettstedets språk</message>
 	<message key="admin.settings.siteStyleSheetInvalid">Ugyldig filformat for stilarket. Gyldig filformatet: .css.</message>
 	<message key="admin.settings.siteStyleSheet">Nettstedets stilark (style sheet)</message>
@@ -125,4 +122,5 @@ Bruk: (behandle alle filer i en mappe): {$scriptName} path/to/apache/directory</
 	<message key="admin.settings.defaultMetricDescription">Installeringen din er konfigurert til å registrere mer enn ett mål på bruk. Bruksstatistikken vil bli vist i flere sammenhenger. I noen tilfeller vil ett sett med bruksdata bli brukt, for eksempel til å vise en ordnet liste over de mest brukte artiklene eller til å rangere søkeresultater. Velg ett av de konfigurerte målene som standard.</message>
 	<message key="admin.scheduledTask.clearLogs">Tøm loggen over utførte oppgaver</message>
 	<message key="admin.contexts.confirmDelete"><![CDATA[Er du sikker på at du vil slette <i>{$contextName}<i> og alt innholdet i den? Slettingen er permanent.]]></message>
+	<message key="admin.languages.confirmSitePrimaryLocaleChange">Er du sikker på at du ønsker å endre hovedspråket? Navn på brukere som er påkrevet i hovedspråket vil bli kopiert fra det eksisterende hovedspråket der det mangler.</message>
 </locale>
