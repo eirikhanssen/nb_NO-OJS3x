@@ -15,7 +15,6 @@
 <locale name="nb_NO" full_name="Norsk bokmål">
         <message key="author.submission.roundStatus.reviewsReady">Nye fagfellevurderinger er sendt inn. De vurderes av redaktøren.</message>
         <message key="author.submit.submissionCitations">Legg ved en formatert referanseliste eller bibliografi. Bruk en tom linje til å skille elementene fra hverandre.</message>
-        <message key="author.submit.userGroupRequired">Du har ikke en rolle (f.eks. forfatter) som gjør at du kan sende inn nytt materiale. Sjekk kontoen din. Det kan hende du kan legge til en passende rolle om du endrer profilen din.</message>
         <message key="common.queue.long.myAssigned">Mine oppdrag</message>
         <message key="common.queue.long.submissionsArchived">Arkiverte innleveringer</message>
         <message key="common.queue.long.submissionsUnassigned">Ikke tildelt</message>
@@ -57,7 +56,6 @@
         <message key="editor.submission.roundStatus.pendingReviews">Avventer respons fra fagfeller</message>
         <message key="editor.submission.roundStatus.recommendationsCompleted">Alle anbefalinger er levert inn. Det må tas en avgjørelse.</message>
         <message key="editor.submission.roundStatus.recommendationsReady">Nye redaksjonelle anbefalinger har blitt levert inn</message>
-        <message key="editor.submission.roundStatus.resubmitted">Innleveringen har blitt levert inn for ny fagfellevurdering.</message>
         <message key="editor.submission.roundStatus.reviewOverdue">Fristen for fagfellevurdering har forfalt</message>
         <message key="editor.submission.roundStatus.reviewsCompleted">Fagfellevurdering fullført</message>
         <message key="editor.submission.roundStatus.reviewsReady">Nye fagfellevurderinger er levert inn</message>
@@ -204,103 +202,6 @@
         <message key="submission.changeComments">Endre til</message>
         <message key="submission.changeFile">Endre fil</message>
         <message key="submission.citations">Referanser</message>
-        <message key="submission.citations.editor.citationlist.approved">Godkjent</message>
-        <message key="submission.citations.editor.citationlist.deleteCitationConfirmation">Er du sikker på at du ønsker å slette referansen?</message>
-        <message key="submission.citations.editor.citationlist.errorDeletingCitation">Det oppstod et problem da du prøvde å slette referansen. Rapporter gjerne dette som en programfeil.</message>
-        <message key="submission.citations.editor.citationlist.newCitation">Ny referanse</message>
-        <message key="submission.citations.editor.citationlist.notApproved">Ikke godkjent</message>
-        <message key="submission.citations.editor.citationlist.title">Rediger referanser</message>
-        <message key="submission.citations.editor.clickToEdit">Klikk for å redigere</message>
-        <message key="submission.citations.editor.details.authorQuery">Spør forfatteren</message>
-        <message key="submission.citations.editor.details.authorQueryBody">Din melding til forfatteren:</message>
-        <message key="submission.citations.editor.details.authorQueryExplanation">Du kan be forfatteren om mer informasjon om denne referansen. Om du klikker «Send» nedenfor, sendes meldingen som e-post til forfatteren.</message>
-        <message key="submission.citations.editor.details.authorQuerySubject">Emne:</message>
-        <message key="submission.citations.editor.details.cannotSelectDefaultForLabel">Du kan ikke endre en feltbeskrivelse. Slett feltet om du ikke trenger det.</message>
-        <message key="submission.citations.editor.details.changeFieldInfo">Skriv de første tegnene for å velge ...</message>
-        <message key="submission.citations.editor.details.checkInGoogleScholar">Sjekk i Google Scholar</message>
-        <message key="submission.citations.editor.details.citationExportPreview">Forhåndsvis referanseeksport</message>
-        <message key="submission.citations.editor.details.citationImprovementResultsActive">Resultat av avanserte, interne referansetjenester (klikk for å lukke).</message>
-        <message key="submission.citations.editor.details.citationImprovementResultsInactive">Resultat av avanserte referansetjenester (klikk for å åpne)</message>
-        <message key="submission.citations.editor.details.citationServices">Referansetjenester</message>
-        <message key="submission.citations.editor.details.clickToDismissMessage">Du kan klikke i teksten for å se bort fra den.</message>
-        <message key="submission.citations.editor.details.dataSaved">Endringene er lagret.</message>
-        <message key="submission.citations.editor.details.dontShowMessageAgain">Ikke vis denne meldingen igjen.</message>
-        <message key="submission.citations.editor.details.editRawCitationDatabaseServices">Velg refereransedatabase-tjenester:</message>
-        <message key="submission.citations.editor.details.editRawCitationExpertSettingsActive">Innstillinger for avansert referanseredigering (klikk for å lukke).</message>
-        <message key="submission.citations.editor.details.editRawCitationExpertSettingsInactive">Avanserte (klikk for å lukke).</message>
-        <message key="submission.citations.editor.details.editRawCitationExtractionServices">Velg tjenester for å hente ut referanser:</message>
-        <message key="submission.citations.editor.details.editRawCitationFilterValidationError">Intern feil: Ugyldig filtervalg. Rapporter gjerne programfeilen.</message>
-        <message key="submission.citations.editor.details.explainImprovementOptions">Du har flere muligheter til å forbedre referansen om standardinnstillingen ikke gir tilfredsstillende resultater. Det hjelper ofte å redigere viktige felt (f.eks. tittel og forfatter) manuelt før du forsøker referansetjenestene igjen. Dersom ikke det hjelper, kan du sjekke i Google Scholar eller spørre forfatteren om detaljer.</message>
-        <message key="submission.citations.editor.details.googleScholar">Google Scholar</message>
-        <message key="submission.citations.editor.details.googleScholarExplanation">Dersom du ikke fant referansen i de tilknyttede referansetjenestene, kan du søke i Google Scholar. Dessverre tilbyr ikke Google Scholar disiplinbaserte grensesnitt for sine data. Det betyr at du ikke kan automatisk returnere data hit. Du må kopiere og lime inn informasjonen manuelt fra Googletreffene til dine felt.</message>
-        <message key="submission.citations.editor.details.manualEditing">Manuell redigering</message>
-        <message key="submission.citations.editor.details.messages">Pass på (klikk på meldingen for å se bort fra dem)</message>
-        <message key="submission.citations.editor.details.newFieldInfo">... klikk her for å legge til et nytt felt ...</message>
-        <message key="submission.citations.editor.details.processRawCitation">Behandle</message>
-        <message key="submission.citations.editor.details.processRawCitationGoAhead">Gå videre</message>
-        <message key="submission.citations.editor.details.processRawCitationTitle">Endre opprinnelig referanse</message>
-        <message key="submission.citations.editor.details.processRawCitationWarning">Du er i ferd med å endre den opprinnelige referanseteksten. Om du gjør det, vil alle feltene bli oppdatert med ny informasjon. Dette sletter ev. manuelle endringer du har gjort.</message>
-        <message key="submission.citations.editor.details.queryCitation">Søk i referansetjenester på nytt</message>
-        <message key="submission.citations.editor.details.queryGoogleScholar">Søk i Google Scholar</message>
-        <message key="submission.citations.editor.details.rawCitation">Opprinnelig referansetekst</message>
-        <message key="submission.citations.editor.details.rawCitationRequired">Du må legge inn en referansetekst.</message>
-        <message key="submission.citations.editor.details.saveAndApprove">Lagre og godkjenn</message>
-        <message key="submission.citations.editor.details.saveAndRevokeApproval">Tilbakekall godkjenning</message>
-        <message key="submission.citations.editor.details.sendAuthorQuery">Send melding</message>
-        <message key="submission.citations.editor.details.sendAuthorQuerySuccess">Melding sendt!</message>
-        <message key="submission.citations.editor.details.sourceResultsUse">Bruk</message>
-        <message key="submission.citations.editor.details.sourceResultsUseAll">Bruk alle</message>
-        <message key="submission.citations.editor.details.sourceResultsUseAllExplanation">Klikk for å flytte alle resultatfeltene fra denne kilden direkte til listen over felt.</message>
-        <message key="submission.citations.editor.details.sourceResultsUseExplanation">Klikk for å flytte dette resultatfeltet til feltlisten din.</message>
-        <message key="submission.citations.editor.details.unsavedChanges">Referansen inneholder data som ikke er lagret. Klikk «Lagre» for å beholde endringene, eller «Avslutt» for å gjøre om endringene.</message>
-        <message key="submission.citations.editor.edit">Rediger referanser</message>
-        <message key="submission.citations.editor.export">Eksporter referanser</message>
-        <message key="submission.citations.editor.export.exportDescription"><![CDATA[<a id="markForExport" href="">Klikk her</a> for å velge alle resultatene. Du kan så kopiere og lime dem inn i dokumentet ditt.]]></message>
-        <message key="submission.citations.editor.export.filterSelectionDescription">Velg en av disse eksportmetodene:</message>
-        <message key="submission.citations.editor.export.filterSelectionError">Du valgte ikke eksportalternativ</message>
-        <message key="submission.citations.editor.export.foundUnapprovedCitationsMessage"><![CDATA[<p>Du har ikke godkjent alle referansene. Gå til fanen <strong>Rediger referanser</strong> og pass på at du har godkjent alle referansene før du forsøker å eksportere dem. Godkjente referanser er markert med en blå strek på venstre side.</p>]]></message>
-        <message key="submission.citations.editor.export.noExportOutput">Utdatafilteret «{$filterName}»  har gjort en feil. Rapporter gjerne programfeilen.</message>
-        <message key="submission.citations.editor.export.pleaseSelectPlaintextFilter">Referansestil for utdata (kun eksperimentell):</message>
-        <message key="submission.citations.editor.export.pleaseSelectXmlFilter">XML-muligheter for utdata:</message>
-        <message key="submission.citations.editor.introduction">Introduksjon</message>
-        <message key="submission.citations.editor.introduction.introductionMessage"><![CDATA[<h4>Velkommen!</h4>
-	<p>Denne referansemarkeringshjelpen hjelper deg med å legge inn markeringsspråk for referansene som forfatterne har oppgitt, før eksport til NLM 2.3 eller 3.0 XML oppsett, alternativt som tekstbasert eksport.</p>
-	<ul>
-		<li>
-			<p><strong>Konfigurering</strong></p>
-			<p>Referansemarkeringshjelpen er konfigurert av redaksjonslederen av tidsskriftet <a href="{$citationSetupUrl}">Tidsskriftsoppsett Trinn 3.7: Referansemarkeringshjelper</a>. Andre verktøy for å hente ut og sjekke referanser kan bli lagt til, konfigurert og slettet. Kontakt redaksjonslederen for mer informasjon.</p>
-		</li>
-		<li>
-			<p><strong>Navigere grensesnittet</strong></p>
-			<p>Du bytter mellom <strong>Introduksjon</strong>, <strong>Rediger referanser</strong> og <strong>Eksporter referanser</strong> ved å klikke på fanetitlene. For å utvide grensesnittet for referansene, klikk på <strong>Fullskjerm</strong>. For å gå tilbake til normalt grensesnitt fra det utvidede grensesnittet, klikk <strong>Fullskjerm av </strong>. For å fjerne denne introduksjonsfanen, klikk på knappen under.</p>
-		</li>
-		<li>
-			<p><strong>Be om referanser</strong></p>
-			<p>Dersom redaksjonslederen har aktivert assistenten, vil forfatterne bli bedt om en referanseliste i forbindelse med innleveringen av artikkelen. Disse referansene vil bli bedt om i et separat dokument. Forfatterne kan endre referansen etter at den er levert inn, ved å redigere i metadataene til innleveringen. Merk at dette vil overskrive ev. modifiseringer du har gjort i referansene når du har brukt dette verktøyet.</p>
-		</li>
-		<li>
-			<p><strong>Redigere referanser</strong></p>
-			<p>Referansemarkeringshjelperen vil forsøke å identifisere og hente ut individuelle referanser fra referanselisten. Du kan systematisk sjekke hver enkelt forsøk på å hente ut en referanse mot flere eksterne databaser; redigere ukorrekt eller legge til ny informasjon; godkjenne eller slette referanser; og legge til nye referanser.</p>
-			<p>Alle endelige referanser til en innlevering må bli godkjent før de kan bli eksportert.</p>
-		</li>
-		<li>
-			<p><strong>Eksportere referanser</strong></p>
-	 		<p>Referanser kan bli eksporter som XML eller tekst. Valgmuligheter for XML-eksport inkluderer <a href="http://dtd.nlm.nih.gov/publishing/">NLM Journal Publishing</a> 2.3 and 3.0 <a href="http://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/tags.html#el-reflist">ref-list XML</a>. Velger du en av disse, produseres en XML-kodet snutt av referanselisten som kan bli kopiert og limt inn i et NLM XML-oppsett.</p>
-			<p>Muligheter for teksteksport inkluderer referansestilene ABNT, APA, MLA og Vancouver. Disse alternativene lager en eksporttekst som kan bli kopiert og limt inn i et tekstbasert artikkeloppsett. (f.eks. Microsoft Word, OpenOffice, Adobe InDesign). Hver enkelt referanse inkluderer en lenke som automatisk søker etter referansen i Google Scholar.</p>
-		</li>
-	</ul>]]></message>
-        <message key="submission.citations.editor.loadMessage">Vent mens referansemarkeringshjelperen lastes opp</message>
-        <message key="submission.citations.editor.pleaseImportCitationsFirst"><![CDATA[<p>Det er ingen referanser i artikkelen.</p><p>  Gå til artikkelens <a href="{$articleMetadataUrl}">metadataside</a> og legg inn en referanseliste eller legg inn referanser manuelt ved å bruke knappen for å legge til.]]></message>
-        <message key="submission.citations.editor.pleaseSelect">Velg ...</message>
-        <message key="submission.citations.editor.unprocessedCitations">Referansene til denne artikkelen blir fremdeles behandlet av serveren. Den nåværende referanselisten inneholder kun de referansene som allerede er behandlet. Klikk «Oppdater» for å se referanser som har blitt behandlet i mellomtiden.</message>
-        <message key="submission.citations.editor.unprocessedCitationsButton">Oppdater referanselisten</message>
-        <message key="submission.citations.editor.unprocessedCitationsButtonTitle">Klikk for å oppdatere referanselisten</message>
-        <message key="submission.citations.filter.invalidMetadata">Det skjedde en feil i {$filterName}: Et av dataelementene returnert fra datakilden (f.eks. en nettjeneste) passet ikke til de interne metadata-formatene. Derfor ble resultatene fra datakilen avvist. Rapporter gjerne programfeilen.</message>
-        <message key="submission.citations.filter.noResultFromFilterError">Flere referansetjenester hadde ingen treff. Du kan forsøke å redigere referansefeltene manuel og så sjekke mot referensetjenestene for bedre resultat. Om dette ikke hjelper, finnes ikke referansen i noen av de tilknyttede databasene.</message>
-        <message key="submission.citations.filter.unsupportedPublicationType">Dette er en type publikasjon som ikke støttes. Du bør redigere referansen manuelt og legge inn en gyldig type publikasjon: Bok, tidsskrift, doktoravhandling og konferanserapport.</message>
-        <message key="submission.citations.filter.webserviceError">{$filterName} sitt forsøk å bruk av nettjenesten har returnet en feilmelding med følgende URL: {$webserviceUrl}. Det kan være at nettjenesten er midlertidig utilgjengelig. Du vil kunne jobbe med de gjenværende tjenestene og lagre treffene dine. Du kan også prøve igjen senere. Dersom feilen vedvarer, kan du be redaksjonlederen om å deaktivere tjenesten og å melde en programvarefeil.</message>
-        <message key="submission.citations.filter.webserviceResultTransformationError">Det oppsto en feil i {$filterName}: Omgjøringen av XML-resultater (f.eks. fra en nettjeneste) til feltbasert metadata feilet. Grunnen er trolig at nettjenesten returnerte ugyldige eller inkomplette data. Rapporter dette som en programfeil.</message>
-        <message key="submission.citations.metadata.changeWarning">Er du sikker på at du vil oppdatere referanselisten din? Dersom du klikker OK vil endringer gjort av redaktøren overskrives. Vennligst kontakt redaktøren som har ansvar for din innlevering, dersom du ikke er sikker på om du burde gjøre endringer i referanselisten.</message>
         <message key="submission.comments.addComment">Legg til kommentar</message>
         <message key="submission.comments.addReviews">Legg fagfellevurderingene til e-post</message>
         <message key="submission.comments.comments">Kommentarer</message>
@@ -351,17 +252,16 @@
         <message key="submission.event.fileAuditorCleared">{$name} ({$username}) ble fjernet som sluttkontrollør for filen «{$file}»</message>
         <message key="submission.event.fileAuditUploaded">{$name} ({$username}) har fullført en sluttkontroll og lastet opp «{$file}»</message>
         <message key="submission.event.fileDeleted">{$username} slettet filen «{$originalFileName}» fra innleveringen {$submissionId}</message>
-        <message key="submission.event.fileRevised">Den reviderte filen «{$name}» (fil ID {$fileId}-{$revision}) ble lastet opp.</message>
+        <message key="submission.event.fileRevised">Den reviderte filen "{$name}" (fil ID {$fileId}-{$fileRevision}) ble lastet opp.</message>
         <message key="submission.event.fileUploaded">Filen «{$originalFileName}» ble lastet opp av {$username} for  {$submissionId}.</message>
         <message key="submission.event.general.metadataUpdated">Metadata for innlevering oppdatert</message>
         <message key="submission.event.general.suppFileUpdated">Innleveringsfil oppdatert</message>
         <message key="submission.event.lastRevisionDeleted">{$username} fjernet den siste revideringen av filen «{$title}»</message>
-        <message key="submission.event.participantAdded">{$name} ble lagt til innleveringen som {$userGroupName}.</message>
+        <message key="submission.event.participantAdded">{$name} ({$username}) ble lagt til innleveringen som {$userGroupName}.</message>
         <message key="submission.event.participantRemoved">{$name} ({$username}) er fjernet som {$userGroupName}.</message>
         <message key="submission.event.proofsApproved">{$name} ({$username}) har godkjent sistekorrekturen av «{$formatName}»</message>
         <message key="submission.event.reviewer.reviewAccepted">Fagfellevurdering akseptert</message>
         <message key="submission.event.reviewer.reviewAcceptedByProxy">Fagfellevurdering akseptert av mellommann</message>
-        <message key="submission.event.reviewer.reviewCancelled">Fagfellevurdering avbrutt</message>
         <message key="submission.event.reviewer.reviewDeclined">Fagfellevurdering avslått</message>
         <message key="submission.event.reviewer.reviewDueDate">Frist for fagfellevurdering omgjort</message>
         <message key="submission.event.reviewer.reviewerAssigned">Fagfelle oppnevnt til innleveringen</message>
@@ -414,7 +314,6 @@
         <message key="submission.layout.confirmDeleteSupplementaryFile">Er du sikker på at du vil slette den supplerende filen? Det kan ikke gjøres om.</message>
         <message key="submission.layout.deleteGalleyStylesheet">Slett stilarket</message>
         <message key="submission.layout.editGalley">Rediger layout</message>
-        <message key="submission.layout.galleyFileData">Oppsett filinformasjon</message>
         <message key="submission.layout.galleyFormat">Oppsettformat</message>
         <message key="submission.layout.galleyHTMLData">Filer i HTML</message>
         <message key="submission.layout.galleyImages">Bilder</message>
@@ -453,15 +352,12 @@
         <message key="submission.license.cc.by-sa4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>Dette verket er lisensiert under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>]]></message>
         <message key="submission.licenseURL">URL for lisens</message>
         <message key="submission.licenseURLValid">Legg til en gyldig, ekstern URL (inkluder http://).</message>
-        <message key="submission.list.clearSearch">Fjern søkeord</message>
         <message key="submission.list.confirmDelete">Vil du slette innleveringen?</message>
         <message key="submission.list.copyeditsSubmitted">Språkvaskede filer innlevert</message>
         <message key="submission.list.count">{$count} innleveringer</message>
         <message key="submission.list.discussions">Åpne diskusjoner</message>
 	<message key="submission.list.dualWorkflowLinks"><![CDATA[Du er tildelt flere roller for denne inndsendingen.<br/> Ønsker du tilgang til <a href="{$urlAuthorWorkflow}">forfatter-arbeidsflyt</a>  eller <a href="{$urlEditorialWorkflow}">redaksjonell-arbeidsflyt</a>?]]></message>
         <message key="submission.list.filesPrepared">Filer forberedt</message>
-        <message key="submission.list.filter">Filtre</message>
-        <message key="submission.list.filterRemove">Tøm filteret: {$filterTitle}</message>
         <message key="submission.list.galleysCreated">Produksjonsoppsett laget</message>
 	<message key="submission.list.incompleteSubmissionNotice">Denne innleveringen må fullføres før en redaktør vil vurdere den</message>
 	<message key="submission.list.infoCenter">Aktivitetslogg og -notater</message>
@@ -660,4 +556,35 @@
         <message key="workflow.review.internalReview">Intern vurdering</message>
         <message key="workflow.stage">Stadie</message>
         <message key="workflow.stage.any">Alle stadier</message>
+	<message key="submission.citations.description">Fyll ut en referanse per linje slik at den kan hentes ut av programvaren.</message>
+	<message key="submission.parsedCitations">Gjenkjente referanser</message>
+	<message key="submission.parsedCitations.DOI">DOI</message>
+	<message key="submission.parsedCitations.description">De følgende referansene har blitt hentet ut og vil bli lenket til i innleveringens metadata.</message>
+	<message key="submission.parsedAndSaveCitations">Hent ut og lagre referanser</message>
+	<message key="submission.submit.form.languagesRequired">Legg til språk.</message>
+	<message key="submission.submit.form.subjectsRequired">Legg til tema.</message>
+	<message key="submission.submit.form.disciplinesRequired">Legg til disiplin.</message>
+	<message key="submission.submit.form.keywordsRequired">Legg til nøkkelord.</message>
+	<message key="submission.submit.form.agenciesRequired">Legg til støttende virksomhet (hvis relevant)</message>
+	<message key="submission.submit.form.coverageRequired">Legg til dekningsinformasjon (hvis relevant)</message>
+	<message key="submission.submit.form.typeRequired">Angi type.</message>
+	<message key="submission.submit.form.sourceRequired">Angi kilde.</message>
+	<message key="submission.submit.form.rightsRequired">Legg til rettigheter.</message>
+	<message key="submission.submit.form.citationsRequired">Legg til referanser.</message>
+	<message key="editor.submission.roundStatus.resubmitForReview">Innleveringen må sendes inn på nytt til ny fagfellevurderingsrude.</message>
+	<message key="editor.submission.roundStatus.submissionResubmitted">Innleveringen har blitt sendt inn på nytt til ny fagfellevurderingsrunde.</message>
+	<message key="editor.submission.addStageParticipant.form.reviewerWarning">Deltakeren du har valgt har blitt tildelt i oppdrag å gjennomføre en blind fagfellevurdering. Hvis denne blir valgt som deltaker, vil den få tilgang til forfatterens identitet. Du oppfordres til å ikke velge denne deltakeren med mindre du uavhengig kan forsikre integriteten til fagvellevurderingsprosessen.</message>
+	<message key="log.review.reviewUnconsidered">{$editorName} har markert runde {$round} fagfellevurdering for innleveringen {$submissionId}  som ikke tatt med i betraktning.</message>
+	<message key="submission.list.currentStage">Nå i arbeidsflyten {$stage}.</message>
+	<message key="submission.list.assignEditor">Oppnevn redaktør</message>
+	<message key="grid.category.categories">Kategorier</message>
+	<message key="catalog.sortBy.titleAsc">Tittel (A-Å)</message>
+	<message key="catalog.sortBy.titleDesc">Tittel (Å-A)</message>
+	<message key="catalog.sortBy.datePublishedAsc">Publiseringsdato (eldste først)</message>
+	<message key="catalog.sortBy.datePublishedDesc">Publiseringsdato (nyeste først)</message>
+	<message key="category.coverImage">Omslagsbilde</message>
+	<message key="submission.submit.placement.categories">Kategorier</message>
+	<message key="submission.currentCoverImage">Nåværende bilde</message>
+	<message key="catalog.category.noItems">Ingenting har blitt publisert i denne kategorien enda.</message>
+	<message key="catalog.category.subcategories">Underkategorier</message>
 </locale>
