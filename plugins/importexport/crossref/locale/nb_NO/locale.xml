@@ -19,8 +19,6 @@
 	<message key="plugins.importexport.crossref.cliUsage">Bruk:
 {$scriptName} {$pluginName} [xmlFileName] [journal_path] artikler [articleId1] [articleId2] ...
 {$scriptName} {$pluginName} [xmlFileName] [journal_path] utgave [issueId]</message>
-	<message key="plugins.importexport.crossref.cliError">Feil:</message>
-
 	<message key="plugins.importexport.crossref.export.error.issueNotFound">Ingen utgave stemmer med den angitte utgaveidentiteten «{$issueId}».</message>
 	<message key="plugins.importexport.crossref.export.error.articleNotFound">Ingen artikkel stemmer med den angitte artikkelidentiteten «{$articleId}».</message>
 
@@ -40,8 +38,6 @@
 	<message key="plugins.importexport.crossref.settings.form.automaticRegistration.description">OJS vil overføre de oppnevnte DOI-ene automatisk til CrossRef. Merk at det kan ta litt tid etter publiseringen før alt er klart. Du kan velge alle uregistrerte DOI-er.</message>
 	<message key="plugins.importexport.crossref.settings.form.testMode.description">Bruk CrossRef sjekk API for overføringen av DOI. Husk å fjerne denne valgmuligheten for produksjonsfasen.</message>
 	<message key="plugins.importexport.crossref.issues.description">Merk: Bare utgaver (ikke artiklene) vil bli vurdert for eksport/registrering her.</message>
-	<message key="plugins.importexport.crossref.status.submitted">Innlevert</message>
-	<message key="plugins.importexport.crossref.status.completed">Overført</message>
 	<message key="plugins.importexport.crossref.status.failed">Mislyktes</message>
 	<message key="plugins.importexport.crossref.status.registered">Aktiv</message>
 	<message key="plugins.importexport.crossref.status.markedRegistered">Markert aktiv</message>
@@ -59,9 +55,8 @@
 	<message key="plugins.importexport.crossref.action.export">Last ned XML</message>
 	<message key="plugins.importexport.crossref.action.markRegistered">Merk som aktiv</message>
 	<message key="plugins.importexport.crossref.action.register">Lever inn</message>
-	<message key="plugins.importexport.crossref.action.checkStatus">Sjekk status</message>
 	<message key="plugins.importexport.crossref.senderTask.name">CrossRefs automatiske registrering</message>
-	<message key="plugins.importexport.crossref.notification.failed"><![CDATA[En DOI ble ikke registrert. Gå til «Verktøy» > «Import/eksport» > «Programtillegg for eksport til CrossRef XML» for hvilke overføringer som feilet]]></message>
 	<message key="plugins.importexport.crossref.register.error.mdsError">Overføringen mislyktes. Serveren som skal registrere DOI meldte en feil: «{$param}».</message>
-	<message key="plugins.importexport.crossref.register.success">Overføringen var vellykket</message>
+	<message key="plugins.importexport.crossref.settings.form.validation">Valider XML. Bruk denne innstillingen for XML nedlasting til manuell DOI-registrering.</message>
+	<message key="plugins.importexport.crossref.register.success.warning">Registreringen var vellykket men følgende advarsler ble rapportert: '{$param}'.</message>
 </locale>
