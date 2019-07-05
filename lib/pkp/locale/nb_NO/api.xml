@@ -4,27 +4,27 @@
 <!--
   * locale/nb_NO/locale.xml
   *
-  * Copyright (c) 2014-2019 Simon Fraser University
-  * Copyright (c) 2003-2019 John Willinsky
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk Bokmål">
-	<message key="api.submissions.unknownError">En uventet feil oppstod. Last siden på nytt og prøv igjen.</message>
-	<message key="api.403.unauthorized">Brukeren din har ikke tilgang til denne ressursen.</message>
-	<message key="api.400.paramNotSupported">Parameteren {$param} er ikke støttet.</message>
-	<message key="api.404.resourceNotFound">Ressursen ble ikke funnet.</message>
-	<message key="api.404.endpointNotFound">Den forespurte URL-en ble ikke funnet.</message>
-	<message key="api.submissions.403.csrfTokenFailure">Forespørsel avvist. Dette kan være fordi din login har utløpt. Last siden på nytt og prøv igjen.</message>
-	<message key="api.submissions.403.requestedOthersUnpublishedSubmissions">Du kan kun se upubliserte innsendinger som du har blitt tildelt.</message>
-	<message key="api.submissions.403.deleteSubmissionOutOfContext">Du kan ikke slette en innsending som ikke er tildelt denne konteksten.</message>
-	<message key="api.submissions.403.unauthorizedDeleteSubmission">Brukeren din har ikke rettigheter til å slette denne innsendingen.</message>
-	<message key="api.submissions.404.resourceNotFound">Ressursen ble ikke funnet.</message>
-	<message key="api.submissions.400.missingRequired">Forespørselen din kunne ikke fullføres fordi påkrevet informasjon mangler.</message>
-	<message key="api.submissions.400.invalidIssueIdentifiers">Ugyldig vol, nummer eller år.</message>
-	<message key="api.stats.400.wrongDateFormat">Feil datoformat. Datoen må være på formatet YYYY-MM-DD.</message>
-	<message key="api.stats.400.wrongDateRange">Ugyldig dato. Startdato kan ikke være etter sluttdato.</message>
-	<message key="api.stats.400.wrongTimeSegmentDaily">Tidssegmentet 'daglig' kan bare brukes sammen med et datointervall (startdato og sluttdato) innen de siste 90 dagene.</message>
+<locale name="nb_NO" full_name="Norsk bokmål">
+	<message key="api.submissions.403.csrfTokenFailure">Du kan ikke gjøre dette. Grunnen kan være at innloggingen din har løpt ut. Forsøk å gjenoppfriske skjermbildet før du prøver igjen.</message>
+	<message key="api.submissions.403.requestedOthersUnpublishedSubmissions">Du kan bare se upubliserte innleveringer som du har blitt tildelt</message>
+	<message key="api.submissions.403.deleteSubmissionOutOfContext">Du kan ikke slette en innlevering som ikke er tildelt denne konteksten</message>
+	<message key="api.submissions.403.unauthorizedDeleteSubmission">Du har ikke tillatelse til å slette denne innleveringen</message>
+	<message key="api.submissions.404.resourceNotFound">Ressursen ble ikke funnet</message>
+	<message key="api.submissions.400.missingRequired">Forespørselen kunne ikke besvares fordi den manglet nødvendig informasjon</message>
+	<message key="api.submissions.400.invalidIssueIdentifiers">Den forespurte årgangen, nummeret og året er ikke gyldig</message>
+	<message key="api.submissions.unknownError">Det oppsto en feil. Gjenoppfrisk skjermbildet og forsøk igjen</message>
+	<message key="api.400.paramNotSupported">Parameteren {$param} støttes ikke.</message>
+	<message key="api.403.unauthorized">Du har ikke rettigheter til denne ressursen.</message>
+	<message key="api.404.resourceNotFound">Kan ikke finne ressursen.</message>
+	<message key="api.404.endpointNotFound">URL ble ikke funnet.</message>
+	<message key="api.stats.400.wrongDateFormat">Ugyldig datoformat. Datoen må være på formatet ÅÅÅÅ-MM-DD.</message>
+	<message key="api.stats.400.wrongDateRange">Ugyldig forespørsel. Startdato kan ikke være senere enn sluttdato.</message>
+	<message key="api.stats.400.wrongTimeSegmentDaily">Ugyldig forespørsel. Tidssegmentet 'daglig' kan kun brukes med et datointervall (startdato og sluttdato) innenfor de siste 90 dagene.</message>
 </locale>
