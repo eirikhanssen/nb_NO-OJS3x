@@ -47,7 +47,6 @@
 	<message key="grid.action.addUser">Legg til bruker</message>
 	<message key="grid.action.deleteFile">Slett fil</message>
 	<message key="grid.action.upgrade">Oppdater</message>
-	<message key="grid.action.downloadFile">Last ned denne filen</message>
 	<message key="grid.action.downloadAll">Last ned filene som et arkiv</message>
 	<message key="grid.action.email">Send e-post</message>
 	<message key="grid.action.addFile">Legg til en fil</message>
@@ -105,7 +104,6 @@
 	<message key="grid.action.expandAll">Utvid alle</message>
 	<message key="grid.action.notify">Varsle denne brukeren</message>
 	<message key="grid.task.status.completed">Oppgaven er gjennomført</message>
-	<message key="grid.genres.title">Sjanger</message>
 	<message key="grid.submissionChecklist.title">Sjekkliste for innlevering</message>
 	<message key="grid.user.mustProvideName">Oppgi minst et etternavn for brukeren</message>
 	<message key="grid.user.notifyUser">Varsle bruker</message>
@@ -212,8 +210,6 @@
 	<message key="grid.user.mergeUsers">Slå sammen brukere</message>
 	<message key="grid.user.mergeUsers.mergeUser">Slå sammen bruker</message>
 	<message key="grid.user.mergeUsers.mergeIntoUser">Flytt over til denne brukeren</message>
-	<message key="grid.user.mergeUsers.into.description">Nå må du velge en bruker som skal tillegges det tidligere brukerens forfatterskap, redaksjonelle oppgaver, osv.</message>
-	<message key="grid.user.mergeUsers.from.description">Velg en bruker du kan flytte brukerkontoen over til (f.eks. når noen har to brukerkontoer). Den brukerkontoen du velger først vil bli slettet. Innleveringer, oppgaver osv. vil bli tillagt den andre brukerkontoen.</message>
 	<message key="grid.action.fileUnconsider">Rettelser etter korrektur er gjort. Du kan se bort fra oppgaven.</message>
 	<message key="grid.artworkFile.caption">Bildetekst</message>
 	<message key="grid.artworkFile.credit">Kreditering</message>
@@ -233,9 +229,7 @@
 	<message key="grid.userGroup.filter.permissionLevel">Med rettighetsnivå satt til</message>
 	<message key="grid.userGroup.cantRemoveDefaultUserGroup">Rollen {$userGroupName} er en standardverdi og kan ikke fjernes</message>
 	<message key="grid.user.mergeUsers.allUsers">Alle brukere som er lagt til</message>
-	<message key="grid.user.mergeUsers.mergeUserSelect.confirm">Er du sikker på at du vil slå sammen denne brukeren med en annen? Du vil velge neste bruker i den påfølgende skjermvisningen.</message>
 	<message key="grid.user.mergeUsers.confirm">Dette kan ikke gjøres om. Er du sikker på at du vil flytte kontoen med brukernavnet «{$oldUsername}» over til kontoen med brukernavnet «{$newUsername}»? Kontoen med brukernavnet  «{$oldUsername}» vil opphøre.</message>
-	<message key="grid.user.mergeUsers.noneEnrolled">Ingen brukere har denne rollen</message>
 	<message key="grid.preparedEmails.title">E-postmaler</message>
 	<message key="grid.action.search">Søk</message>
 	<message key="grid.submission.active.selectOrphaned">Inkluder ufullstendige innleveringer som ikke er levert inn av en forfatter</message>
@@ -243,4 +237,7 @@
 	<message key="grid.action.addNavigationMenuItem">Legg til element</message>
 	<message key="grid.navigationMenus.navigationMenuItems.noneExist">Ingen elementer på navigasjonsmenyen</message>
 	<message key="grid.navigationMenus.navigationMenu.noneExist">Ingen navigasjonsmeny</message>
+	<message key="grid.navigationMenus.navigationMenu.selectType">Velg type …</message>
+	<message key="grid.action.uninstall">Avinstaller</message>
+	<message key="grid.action.users">Vis/velg brukere</message>
 </locale>
