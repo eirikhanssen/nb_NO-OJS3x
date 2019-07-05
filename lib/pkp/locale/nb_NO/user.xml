@@ -16,20 +16,13 @@
 	<message key="user.affiliation">Institusjonstilhørighet</message>
 	<message key="user.affiliations">Institusjonstilhørighet</message>
 	<message key="user.biography">Biografiske opplysninger (f.eks. institutt og stilling)</message>
-	<message key="user.biography.description">(F.eks. institutt og stilling)</message>
 	<message key="user.changeMyPassword">Endre passordet mitt</message>
 	<message key="user.changePassword">Endre passord</message>
 	<message key="user.dateLastLogin">Sist innlogget</message>
 	<message key="user.dateRegistered">Registrert dato</message>
 	<message key="user.editMyProfile">Rediger min profil</message>
 	<message key="user.email">E-post</message>
-	<message key="user.feminine">K</message>
-	<message key="user.firstName">Fornavn</message>
-	<message key="user.gender">Kjønn</message>
-	<message key="user.initialsExample">Jan Anders Svendsen = JAS</message>
-	<message key="user.initials">Initialer</message>
 	<message key="user.interests">Faglige interesser</message>
-	<message key="user.lastName">Etternavn</message>
 	<message key="user.login.accountDisabledWithReason">Kontoen din er slått av av følgende grunn: {$reason}</message>
 	<message key="user.login.accountDisabled">Kontoen din er slått av. Kontakt administratoren for mer informasjon.</message>
 	<message key="user.login.accountNotValidated">Vi har sendt en e-post til {$email}. Følg instruksjonene der for å aktivere brukerkontoen din. Hvis du ikke ser e-posten i innboksen din, sjekk om den havnet i mappen med søppelpost.</message>
@@ -48,8 +41,6 @@
 	<message key="user.login.resetPassword">Tilbakestill passordet</message>
 	<message key="user.logOut">Logg ut</message>
 	<message key="user.mailingAddress">Postadresse</message>
-	<message key="user.masculine">M</message>
-	<message key="user.middleName">Mellomnavn</message>
 	<message key="user.myAccount">Min brukerkonto</message>
 	<message key="user.name">Navn</message>
 	<message key="user.password">Passord</message>
@@ -58,8 +49,6 @@
 	<message key="user.profile.changePasswordInstructions">Skriv inn det nåværende og det nye passordet ditt nedenfor for å endre passordet for kontoen din</message>
 	<message key="user.profile.editProfile">Rediger profil</message>
 	<message key="user.profile.form.emailRequired">Du må oppgi en gyldig e-postadresse</message>
-	<message key="user.profile.form.firstNameRequired">Du må oppgi et fornavn</message>
-	<message key="user.profile.form.lastNameRequired">Du må oppgi et etternavn.</message>
 	<message key="user.profile.form.newPasswordRequired">Du må skrive inn det nye passordet ditt</message>
 	<message key="user.profile.form.oldPasswordInvalid">Det nåværende passordet du skrev inn er ikke riktig</message>
 	<message key="user.profile.form.openAccessNotifications">Få e-postvarsel når ny utgave har fått åpen tilgang</message>
@@ -75,14 +64,12 @@
 	<message key="user.profile">Profil</message>
 	<message key="user.profile.publicProfile">Brukerprofil</message>
 	<message key="user.profile.repeatNewPassword">Gjenta nytt passord</message>
-	<message key="user.register.completeForm">Fyll ut dette skjemaet for å registrere deg hos tidsskriftet</message>
         <message key="user.register.form.emailConsent">Ja, jeg ønsker å bli kontaktet om information om nye publiseringer og meldinger.</message>
 	<message key="user.register.form.emailExists">E-postadressen brukes av en annen bruker</message>
 	<message key="user.register.form.passwordsDoNotMatch">Passordene samsvarte ikke</message>
 	<message key="user.register.form.privacyConsent"><![CDATA[Ja, jeg godtar å få mine data innsamlet og oppbevart i overensstemmelse med vår <a href="{$privacyUrl}" target="_blank">personvererklæring</a>.]]></message>
 	<message key="user.register.form.usernameAlphaNumeric">Brukernavnet kan bare inneholde små bokstaver, tall, understrek og bindestrek. Dessuten må det begynne og slutte med en bokstav eller et tall.</message>
 	<message key="user.register.form.usernameExists">Det valgte brukernavnet er allerede tatt i bruk av en annen bruker</message>
-	<message key="user.register.passwordLengthRestriction">Passordet må være minst {$length} tegn</message>
 	<message key="user.register.registerAs">Registrer {$contextName} som</message>
 	<message key="user.register">Registrer</message>
 	<message key="user.register.usernameRestriction">Bruk små bokstaver, tall og bindestrek/understrek</message>
@@ -93,7 +80,6 @@
 	<message key="user.role.siteAdmin">Nettstedsadministrator</message>
 	<message key="user.role.siteAdmins">Nettstedsadministratorer</message>
 	<message key="user.roles">Roller</message>
-	<message key="user.salutation">Tiltaleform</message>
 	<message key="user.sendPassword">Bekreftelse</message>
 	<message key="user.sendPassword.description">Send meg en bekreftelse med brukernavn og passord</message>
 	<message key="user.signature">Signatur</message>
@@ -103,7 +89,6 @@
 	<message key="user.username">Brukernavn</message>
 	<message key="user.workingLanguages">Arbeidsspråk</message>
 	<message key="user.profile.form.profileImageInvalid">Ugyldig bildeformat eller -størrelse. Mulige formater er .gif, .jpg eller .png. Bildet kan ikke være større enn 150x150 pixler.</message>
-	<message key="user.other">Annet</message>
 	<message key="user.affiliation.description">(Din institusjon, f.eks. «Det Kongelige Frederiks Universitet»)</message>
 	<message key="user.profile.form.affiliationRequired">Du må oppgi institusjonstilhørighet</message>
 	<message key="user.accountInformation">Kontoinformasjon</message>
@@ -120,7 +105,6 @@
 	<message key="user.profile.form.countryRequired">Du må oppgi et land</message>
 	<message key="user.profile.form.mailingAddressRequired">Du må oppgi en postadresse</message>
 	<message key="user.register.form.emailsDoNotMatch">E-postadressene samsvarte ikke</message>
-	<message key="user.suffix">Suffiks</message>
 	<message key="user.authorization.roleBasedAccessDenied">Du har ikke en rolle med tilgang til å utføre dette</message>
 	<message key="user.authorization.userGroupRequired">Du må innstille en gyldig brukergruppe for denne oppgaven</message>
 	<message key="user.authorization.accessibleWorkflowStage">Du har ikke tilgang til dette stadiet av arbeidsflyten</message>
@@ -165,4 +149,13 @@
 	<message key="user.apiKey.generateWarning">Genererer du en ny API-nøkkel, vil det gjøre brukerens eksisterende nøkler ugyldige</message>
 	<message key="user.apiKey.secretRequired">Før du genererer en ny API-nøkkel, må nettstedsadministratoren legge inn en hemmelighet i konfigureringsfilen («api_key_secret»)</message>
 	<message key="user.privacyLink"><![CDATA[Dine opplysninger blir lagret i henhold til vår <a href="{$privacyUrl}" target="_blank">personvernerklæring</a>.]]></message>
+	<message key="user.authorization.assignedStageRoleBasedAccessDenied">Du har ikke blitt tildelt en rolle til denne innleveringen som gir deg rettigheter til denne handlingen.</message>
+	<message key="user.authorization.invalidReviewAssignment">Du har ikke rettigheter til å få tilgang til dette fagfellevurderingsoppdraget.</message>
+	<message key="user.authorization.submissionQuery">Du har ikke rettigheter til å få tilgang til denne diskusjonen.</message>
+	<message key="user.givenName">Fornavn</message>
+	<message key="user.familyName">Etternavn</message>
+	<message key="user.preferredPublicName">Foretrukket navn</message>
+	<message key="user.preferredPublicName.description">Hvordan foretrekker du å bli tiltalt? Titler, mellomnavn og tillegg til navnet ditt kan legges til her hvis du ønsker det.</message>
+	<message key="user.profile.form.givenNameRequired">Fornavn er obligatorisk</message>
+	<message key="user.profile.form.givenNameRequired.locale">Du har lagt til et etternavn for et språksett som mangler fornavn. Vennligst legg til fornavn i dette språket i skjemaet.</message>
 </locale>
