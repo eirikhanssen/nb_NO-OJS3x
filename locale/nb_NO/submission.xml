@@ -64,4 +64,7 @@
 	<message key="submission.citationFormat.notFound">Det forespurte referanseformatet kunne ikke hentes</message>
 	<message key="submission.metadataDescription">Disse spesifikasjonene er basert på metadatasettet Dublin Core, en internasjonal standard som bl.a. brukes til å beskrive tidsskriftinnhold</message>
 	<message key="section.any">Ev. seksjon</message>
+	<message key="submission.submit.form.wordCountAlert">Abstraktet ditt er for langt. Vennligst kort det ned til grensen for antall tillatte ord.</message>
+	<message key="catalog.browseTitles">{$numTitles} poster</message>
+	<message key="catalog.category.heading">Alle poster</message>
 </locale>
