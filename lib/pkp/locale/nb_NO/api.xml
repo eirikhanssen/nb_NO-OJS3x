@@ -13,4 +13,18 @@
 
 <locale name="nb_NO" full_name="Norsk Bokmål">
 	<message key="api.submissions.unknownError">En uventet feil oppstod. Last siden på nytt og prøv igjen.</message>
+	<message key="api.403.unauthorized">Brukeren din har ikke tilgang til denne ressursen.</message>
+	<message key="api.400.paramNotSupported">Parameteren {$param} er ikke støttet.</message>
+	<message key="api.404.resourceNotFound">Ressursen ble ikke funnet.</message>
+	<message key="api.404.endpointNotFound">Den forespurte URL-en ble ikke funnet.</message>
+	<message key="api.submissions.403.csrfTokenFailure">Forespørsel avvist. Dette kan være fordi din login har utløpt. Last siden på nytt og prøv igjen.</message>
+	<message key="api.submissions.403.requestedOthersUnpublishedSubmissions">Du kan kun se upubliserte innsendinger som du har blitt tildelt.</message>
+	<message key="api.submissions.403.deleteSubmissionOutOfContext">Du kan ikke slette en innsending som ikke er tildelt denne konteksten.</message>
+	<message key="api.submissions.403.unauthorizedDeleteSubmission">Brukeren din har ikke rettigheter til å slette denne innsendingen.</message>
+	<message key="api.submissions.404.resourceNotFound">Ressursen ble ikke funnet.</message>
+	<message key="api.submissions.400.missingRequired">Forespørselen din kunne ikke fullføres fordi påkrevet informasjon mangler.</message>
+	<message key="api.submissions.400.invalidIssueIdentifiers">Ugyldig vol, nummer eller år.</message>
+	<message key="api.stats.400.wrongDateFormat">Feil datoformat. Datoen må være på formatet YYYY-MM-DD.</message>
+	<message key="api.stats.400.wrongDateRange">Ugyldig dato. Startdato kan ikke være etter sluttdato.</message>
+	<message key="api.stats.400.wrongTimeSegmentDaily">Tidssegmentet 'daglig' kan bare brukes sammen med et datointervall (startdato og sluttdato) innen de siste 90 dagene.</message>
 </locale>
