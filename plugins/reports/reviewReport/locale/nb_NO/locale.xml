@@ -16,7 +16,6 @@
 	<message key="plugins.reports.reviews.displayName">Fagfellevurdering</message>
 	<message key="plugins.reports.reviews.description">Dette programtillegget lager CSV-rapport med en liste over oppdrag om fagfellevurdering for et tidsskrift</message>
 	<message key="plugins.reports.reviews.round">Runde</message>
-	<message key="plugins.reports.reviews.reviewerId">Fagfelle-ID</message>
 	<message key="plugins.reports.reviews.reviewer">Fagfelle</message>
 	<message key="plugins.reports.reviews.dateAssigned">Oppdraget gitt dato</message>
 	<message key="plugins.reports.reviews.dateNotified">Beskjed gitt dato</message>
@@ -27,5 +26,9 @@
 	<message key="plugins.reports.reviews.submissionId">Innleveringens ID</message>
 	<message key="plugins.reports.reviews.recommendation">Anbefaling</message>
 	<message key="plugins.reports.reviews.comments">Kommentarer til innleveringen</message>
+	<message key="plugins.reports.reviews.dateAcknowledged">Dato godatt</message>
+	<message key="plugins.reports.reviews.unconsidered">Ikke vurdert</message>
+	<message key="plugins.reports.reviews.reviewOverdue">Vurdering ant dager på overtid</message>
+	<message key="plugins.reports.reviews.responseOverdue">Svar ant dager på overtid</message>
 </locale>
 
