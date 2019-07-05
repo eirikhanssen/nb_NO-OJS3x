@@ -12,7 +12,6 @@
   -->
 
 <locale name="nb_NO" full_name="Norsk bokmål">
-        <message key="editor.article.clearReviewForm">Tøm vurderingsskjema</message>
         <message key="editor.article.confirmChangeReviewForm">Advarsel: Er du sikker på at du vil fortsette? Når du forandrer vurderingsskjemaet, vil det påvirke svarene andre har gitt i dette skjemaet.</message>
         <message key="editor.article.reviewForms">Vurderingsskjema</message>
         <message key="editor.article.selectReviewForm">Velg vurderingsskjema</message>
@@ -22,7 +21,6 @@
         <message key="editor.review">Fagfellevurdering</message>
         <message key="editor.review.createReviewer">Opprett ny fagfelle</message>
         <message key="editor.review.dateAccepted">Dato fagfellevurderingen ble mottatt</message>
-        <message key="editor.review.days">Gjennomsnittlig antall dager</message>
         <message key="editor.review.emailReviewer">E-post til fagfelle</message>
         <message key="editor.review.enrollReviewer">Legg til en eksisterende bruker som fagfelle</message>
         <message key="editor.review.enrollReviewer.short">Legg til eksisterende bruker</message>
@@ -34,13 +32,9 @@
         <message key="editor.review.noReviewFilesUploaded">Ingen filer er lastet opp</message>
         <message key="editor.review.noReviewFilesUploaded.details">Du har ikke lastet opp noen filer</message>
         <message key="editor.review.noReviews">Ingen fagfellevurdering å importere</message>
-        <message key="editor.review.NotifyAuthorAccept">Informer forfatteren om at manuskriptet har blitt antatt</message>
-        <message key="editor.review.NotifyAuthorDecline">Informer forfatteren om at manuskriptet ikke har blitt antatt</message>
-        <message key="editor.review.NotifyAuthorExternal">Informer forfatteren om at manuskriptet vil bli sendt til fagfellevurdering</message>
         <message key="editor.review.NotifyAuthorResubmit">Be forfatteren gjøre en større revidering av manuskriptet. Ny fagfellevurdering vil bli utført.</message>
         <message key="editor.review.NotifyAuthorRevisions">Be forfatteren om å revidere manuskriptet</message>
         <message key="editor.review.notInitiated">Fagfelleurderingen har ikke startet</message>
-        <message key="editor.review.personalMessageToAuthor">E-post til forfatteren</message>
         <message key="editor.review.personalMessageToReviewer">E-post til fagfellen</message>
 	<message key="editor.review.rateReviewer">Vurdering av fagfelle</message>
 	<message key="editor.review.rateReviewer.description">Intern vurdering av kvaliteten på fagfellevurderingen. Denne vurderingen blir ikke delt med fagfellen.</message>
@@ -144,4 +138,12 @@
 	<message key="submission.queries.attachedFiles">Legg ved filer</message>
         <message key="submission.queries.messageRequired">Du må legge inn en melding om diskusjonen</message>
         <message key="submission.queries.subjectRequired">Du må legge inn et tema for diskusjonen</message>
+	<message key="editor.review.anonymousReviewer">Anonym fagfelle</message>
+	<message key="editor.review.requestDeclined">Forespørsel avvist</message>
+	<message key="editor.review.requestDeclined.tooltip">Fagfellen har avslått dette oppdraget</message>
+	<message key="reviewer.list.count">{$count} fagfeller</message>
+	<message key="reviewer.list.filterRating">Minst scoret til</message>
+	<message key="reviewer.list.reviewerRating">Fagfelle-score: {$rating}</message>
+	<message key="reviewer.list.daySinceLastAssignment">I går</message>
+	<message key="reviewer.list.reviewInterests">Fagfellevurderingssinteresser</message>
 </locale>
