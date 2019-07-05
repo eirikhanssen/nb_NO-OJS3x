@@ -142,12 +142,9 @@
 	<message key="manager.setup.homeHeaderImageInvalid">Ugyldig bildeformat. Aksepterte format er .gif, .jpg, eller .png.</message>
 	<message key="manager.setup.homepageImageInvalid">Ugyldig bildeformat. Aksepterte format: .gif, .jpg eller .png.</message>
 	<message key="manager.setup.homeTitleImageInvalid">Ugyldig bildeformat. Aksepterte format: .gif, .jpg eller .png.</message>
-	<message key="manager.setup.layout.leftSidebar">Venstre sidemeny</message>
-	<message key="manager.setup.layout.rightSidebar">Høyre sidemeny</message>
 	<message key="manager.setup.layout.unselected">Ikke valgt</message>
 	<message key="manager.setup.loggingAndAuditing">Logging og kontrollering</message>
 	<message key="manager.setup.pageHeaderLogoImageInvalid">Ugyldig bildeformat. Aksepterte format: .gif, .jpg eller .png.</message>
-	<message key="manager.setup.selectOne">Velg en</message>
 	<message key="manager.setup.searchEngineIndexing.sitemap">Sitemap</message>
 	<message key="manager.setup.searchEngineIndexing.sitemapDescription"><![CDATA[XML-sitemap er tilgjengelig for innsending til søkemotorer på <a href="{$path}" target="_blank">{$path}</a>]]></message>
 	<message key="manager.statistics">Statistikk og rapporter</message>
@@ -157,7 +154,6 @@
 	<message key="plugins.categories.auth">Validering</message>
 	<message key="plugins.categories.blocks">Blokker</message>
 	<message key="plugins.categories.blocks.description">Programtillegg for blokker er brukergrensesnittkomponenter, f.eks. de ulike verktøyene i sidemenyen</message>
-	<message key="plugins.categories.citationFormats">Referansestil</message>
 	<message key="plugins.categories.gateways.description">Programtillegg for porter gir kontinuerlige data til eksterne systemer</message>
 	<message key="plugins.categories.gateways">Porter</message>
 	<message key="plugins.categories.generic">Generelle programtillegg</message>
@@ -171,44 +167,16 @@
 	<message key="plugins.categories.themes">Tema</message>
 	<message key="manager.emails.form.emailKeyRequired">E-posten må ha en unik e-postnøkkel</message>
 	<message key="manager.reviewerSearch.searchByName">Søk opp fagfelle etter navn</message>
-	<message key="manager.reviewerSearch.doneAmount">Antall fullførte fagfellevurderinger: {$current}</message>
-	<message key="manager.reviewerSearch.avgAmount">Gjennomsnittlig antall dager per fagfellevurdering: {$current}</message>
-	<message key="manager.reviewerSearch.lastAmount">Dager siden siste fagfellevurdering: {$current}</message>
-	<message key="manager.reviewerSearch.activeAmount">Antall pågående fagfellevurderinger: {$current}</message>
 	<message key="manager.setup.errorDeletingItem">Det oppstod en feil ved slettingen</message>
-	<message key="manager.setup.filter.grid.errorDeletingFilter">Det oppstod en feil ved forsøket på å fjerne dette filteret.  Rapporter gjerne dette som en programfeil.</message>
-	<message key="manager.setup.filter.grid.confirmDelete">Vil du virkelig slette {$filterName}-filteret?</message>
-	<message key="manager.setup.filter.lookup.grid.descriptionTemplate">Velg en database</message>
 	<message key="manager.announcements.datePublish">Publisert</message>
 	<message key="manager.emails.addEmail">Legg til e-postmal</message>
 	<message key="manager.emails.details">Detaljer om malene</message>
 	<message key="manager.reviewerSearch.searchByName.short">Søk etter navn</message>
-	<message key="manager.masthead.title">Kolofon</message>
-	<message key="manager.setup.filter.lookup.grid.descriptionConfirm">Du har valgt å legge til databasen {$filterDisplayName}. Bekreft ved å klikke «OK».</message>
 	<message key="manager.emails.data">Mal beskjed</message>
 	<message key="manager.emails.disable.message">Du er i ferd med å deaktivere e-postmalen. Om det finnes systemprosesser som benytter denne malen, vil de ikke bruke den mer. Ønsker du å bekrefte deaktiveringen?</message>
 	<message key="manager.emails.enable.message">Du er i ferd med å aktivere denne e-posten. Ønsker du å bekrefte denne aktiveringen?</message>
 	<message key="manager.emails.resetAll.message">Om du tilbakestiller alle maler vil alle endringer som er gjort i e-postmalene bli borte. Ønsker du å bekrefte tilbakestillingen?</message>
 	<message key="manager.emails.reset.message">Om du tilbakestiller denne malen, vil alle data i meldingen bli tilbakestilt til standardverdier og alle endringer vil bli borte. Vil du bekrefte denne tilbakestillingen?</message>
-	<message key="manager.setup.citationAssistant">Referansemarkeringshjelper</message>
-	<message key="manager.setup.citationFilterParser">Referanseuthenting</message>
-	<message key="manager.setup.citationFilterParserDescription"><![CDATA[<p>For å finne og kontrollere referanser i referansedatabaser, må de først splittes opp i maskinlesbare metadata: tittel, utgiver, publiseringsdato osv. Alt dette må hentes fra den originale referanseteksten slik forfatteren har oppgitt det. Koblinger til eksterne nettjenester kan hjelpe med arbeidet. En eller flere koblinger kan legges til ved å klikke på «Legg til»-knappen nedenfor. Noen koblinger må konfigureres. Du vil bli bedt om å gjøre det hvis så er tilfelle.</p>
-		<p>Du kan redigere eller slette en eksisterende kobling ved å klikke på ikonet ved siden av den.</p>]]></message>
-	<message key="manager.setup.citationFilterLookup">Referansesjekk</message>
-	<message key="manager.setup.citationFilterLookupDescription"><![CDATA[<p>Du må også tillate og konfigurere tilknytninger til eksterne referansedatabaser. Dette vil hjelpe til med å finne feil i forfatternes referanser eller legge til manglende informasjon (f.eks. DOIer eller PubMed-IDer) som er nødvendig for elektronisk publisering eller avgivelse.</p>
-		<p>Vi tilbyr koblinger til flere eksterne databaser hvor du kan søke etter referanser. Noen av disse databasene krever registrering eller konfigurering. Se informasjon på databasenes nettsider om hvordan du kan registrere deg. Du kan legge til en eller flere databaser ved å klikke på «Legg til»-knappen nedenfor.</p>
-		<p>Du kan redigere eller fjerne en eksisterende ekstern database ved å klikke på ikonet ved siden av den.</p>
-		<p><strong>Merk:</strong> For at referansesjekken skal foregå  effektivt, må <tt>citation_checking_max_processes</tt>-innstillngen i konfigurasjonsfilen være satt til en passende verdi. Se avsnittet Generelle innstillinger i <tt>config.inc.php</tt> for mer informasjon.</p>]]></message>
-	<message key="manager.setup.citationOutput">Utdata</message>
-	<message key="manager.setup.citationOutputStyleDescription">Velg referansestilen som benyttes til tidsskriftet ditt. Referansemarkeringsverktøyet gjør at du kan sammenligne forfatterens versjon av referansen med en versjon som genereres av xml-en du lager. Da blir det blir lett å oppdage feil.</message>
-	<message key="manager.setup.filter.grid.filterDisplayName">Kobling</message>
-	<message key="manager.setup.filter.grid.filterSettings">Registreringsinformasjon og koblingsinnstillinger</message>
-	<message key="manager.setup.filter.grid.filterTemplateRequired">Velg en av omformerne fra rullegardinsmenyen</message>
-	<message key="manager.setup.filter.lookup.grid.description.iSBNdb"><![CDATA[<p>Dette filteret kobler til <a href="http://isbndb.com/" target="_blank">ISBNdb.com</a>s bok- og ISBN-database.</p>
-	<p>En ISBNdb Du må ha en API-nøkkel. For informasjon om hvordan du kan generere en slik nøkkel, se <a href="http://isbndb.com/api/v1/docs/keys" target="_blank">dokumentasjon på nett</a>.</p>]]></message>
-	<message key="manager.setup.filter.lookup.grid.description.crossRef"><![CDATA[<p>Dette filteret kobler til CrossRefs referansedatabase ved bruk av CrossRefs <a href="http://www.crossref.org/02publishers/openurl_info.html" target="_blank">OpenURL Query Interface</a>.</p>
-	<p>For å benytte dette filteret, kan du bruke systemkontoen din hos CrossRef, eller registrere en gyldig e-postadresse hos CrossRef <a href="http://www.crossref.org/requestaccount/" target="_blank">her</a>.</p>]]></message>
-	<message key="manager.setup.filter.pleaseSelect">Vennligst velg ...</message>
 	<message key="plugins.categories.metadata">Metadata</message>
 	<message key="plugins.categories.oaiMetadataFormats">OAI metadata-format</message>
 	<message key="plugins.categories.oaiMetadataFormats.description">Disse programtilleggene for format gjør metadata tilgjengelig i OAI-kommunikasjon</message>
@@ -253,8 +221,6 @@
 	<message key="manager.website.appearance">Design</message>
 	<message key="manager.website.imageFileRequired">Du må laste opp et bilde. Pass på at du har valgt og lastet opp en bildefil.</message>
 	<message key="plugins.categories.metadata.description">Programtillegg for metadata iverksetter flere metadata-standarder</message>
-	<message key="plugins.categories.citationLookup">Koblinger mot referansedatabaser</message>
-	<message key="plugins.categories.citationLookup.description">Programtillegg for referansedatabasekoblinger knytter seg opp mot referansedatabaser for å slå opp referanser, f.eks. når referanser redigeres.</message>
 	<message key="manager.publication.submissionStage">Innlevering</message>
 	<message key="manager.publication.reviewStage">Fagfellevurdering</message>
 	<message key="manager.publication.editorialStage">Redaksjonell behandling</message>
@@ -283,10 +249,6 @@
 	<message key="manager.plugins.deleteConfirm">Er du sikker på at du vil slette programtillegget fra systemet?</message>
 	<message key="manager.userSearch.searchByName">Søk opp bruker etter navn</message>
 	<message key="manager.reviewerSearch.change">Endre</message>
-	<message key="manager.reviewerSearch.doneAmountToggle">Skru på/av filteret for fullførte fagfellevurderinger</message>
-	<message key="manager.reviewerSearch.avgAmountToggle">Skru av/på filtere for gjennomsnittlig dager per fullførte fagfellevurdering</message>
-	<message key="manager.reviewerSearch.lastAmountToggle">Skru av/på filteret for antall dager siden siste fagfellevurdering</message>
-	<message key="manager.reviewerSearch.activeAmountToggle">Skru av/på filteret for pågående fagfellevurderinger</message>
 	<message key="manager.reviewerSearch.interests">Faglige interresser</message>
 	<message key="manager.plugins.deleteDescription">Du sletter programtillegget fra serverens filsystem om du klikker «Slett»</message>
 	<message key="manager.plugins.deleteError">Programtillegget «{$pluginName}» kunne ikke slettes fra filsystemet. Det kan være et problem med rettighetene. Pass på at nettserveren kan skrive til mappen over programtillegg (inkludert undermapper), men ikke glem å sikre det igjen etterpå.</message>
@@ -310,8 +272,7 @@
 	<message key="manager.plugins.pluginGallery.certifications.reviewed">Gjennomgått</message>
 	<message key="manager.plugins.pluginGallery.certifications.partner">Partner</message>
 	<message key="manager.plugins.pluginGallery.maintainer">Vedlikeholder</message>
-	<message key="manager.plugins.pluginGallery.version">Versjon: {$version}</message>
-	<message key="manager.plugins.pluginGallery.date">Lanseringsdato: {$date}</message>
+	<message key="manager.plugins.pluginGallery.version">v{$version} utgitt {$date}</message>
 	<message key="manager.plugins.pluginGallery.homepage">Hjemmeside</message>
 	<message key="manager.plugins.pluginGallery.summary">Sammendrag</message>
 	<message key="manager.plugins.pluginGallery.status">Status</message>
@@ -326,8 +287,6 @@
 	<message key="manager.plugins.noCompatibleVersion.short">Ikke tilgjengelig</message>
 	<message key="manager.plugins.installFailed">Installasjonen mislyktes {$errorString}</message>
 	<message key="manager.reviewerSearch.form.instructions">Bruk skjemaet under for å sette maksimumsverdiene for ordene du vil søke etter. Skjemaet er fylt inn med de beregnede gjennomsittene for disse verdiene.</message>
-	<message key="manager.reviewerSearch.form.interests.instructions">Faglige interesser (skriv inn for  å søke etter like interesser)</message>
-	<message key="manager.reviewerSearch.form.previousReviewRounds">Fagfeller fra tidligere runder med fagfellevurdering av denne innleveringen</message>
 	<message key="manager.statistics.defaultMetricDescription">Din {$contextObjectName} er konfigurert til å registrere mer enn ett mål på bruk. Brukerstatistikken vil bli vist i flere sammenhenger. 
 		I noen tilfeller vil ett enkelt statistisk mål må brukes, f.eks. for å vise en ordnet liste over de mest brukte innleveringene eller til å rangere søkeresultater. Velg ett av de
 		konfigurerte målene som standard.</message>
@@ -375,7 +334,6 @@
 	<message key="manager.setup.authorCopyrightNoticeAgree">Krev at forfattere godtar erklæringen om opphavsretten som del av innleveringsprosessen</message>
 	<message key="manager.setup.authorGuidelines">Retningslinjer for forfatter</message>
 	<message key="manager.setup.authorGuidelines.description">Anbefalte retningslinjer inkluderer standarder for formatering og bibliografisk informasjon. Det er vanlig å legge ved eksempler.</message>
-	<message key="manager.setup.citations">Referanser</message>
 	<message key="manager.plugins.wrongCategory">Det opplastede programtillegget stemmer ikke med kategorien til det oppdaterte programtillegget</message>
 	<message key="manager.plugins.wrongName">XML-versjonen i det oppdaterte programtillegget inneholder et programtilleggsnavn som ikke stemmer med navnet på det oppdaterte programtillegget</message>
 	<message key="manager.plugins.pleaseInstall">Programtillegget finnes ikke. Installer det i stedet.</message>
@@ -433,7 +391,6 @@
 	<message key="grid.action.editGenre">Rediger komponent</message>
 	<message key="grid.action.deleteGenre">Slett komponenten</message>
 	<message key="grid.action.restoreGenres">Gjenopprett komponentene til standardinnstillingene</message>
-	<message key="manager.setup.genres.sortable">La filer av denne typen bli sortert etter kapittel</message>
 	<message key="manager.setup.genres.dependent">Merk denne type filer som avhengige filer (f.eks. som ikke skal bli listet med publisert innhold)</message>
 	<message key="manager.setup.genres.supplementary">Merk denne type filer som tilleggsfiler (f.eks. som ikke er hovedinnholdet i innleveringen)</message>
 	<message key="manager.settings.wizard">Veiviser</message>
@@ -443,29 +400,12 @@
 	<message key="manager.workflow.title">Arbeidsflytinnstillinger</message>
 	<message key="manager.distribution">Distribusjon</message>
 	<message key="manager.distribution.title">Distribusjonsinnstillinger</message>
-	<message key="manager.setup.filter.lookup.grid.description.pubMed"><![CDATA[<p>Dette filteret knyttes opp mot PubMeds <a href="http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi" target="_blank">Entrez</a> søkemotor som går på tvers av databaser. </p><p>En registreringsepost er ikke obligatorisk, men kan bli nødvendig dersom du får problemer med tilkoblingen. Se seksjonen her: <a href="http://www.be-md.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=helpeutils&part=chapter2#chapter2.Usage_Guidelines_and_Requiremen" target="_blank">Usage Guidelines and Requirements</a> in the Entrez documentation for more information.</p>]]></message>
-	<message key="manager.setup.filter.lookup.grid.description.worldCat"><![CDATA[<p>Dette filteret knytter deg opp til OCLC-tjenester <a href="http://www.worldcat.org/affiliate/webservices/xisbn/app.jsp" target="_blank">xISBN</a> og <a href="http://www.worldcat.org/" target="_blank">Worldcat</a> (optional).</p>
-	<p>Dersom du har en Worldcat <a href="http://oclc.org/developer/develop/web-services.html" target="_blank">API-nøkkel </a> kan du knytte deg til Worldcat ved å legge inn nøkkelen under.</p>]]></message>
 	<message key="manager.setup.competingInterests">Interessekonflikter</message>
 	<message key="manager.setup.competingInterestsDescription">Fagfellene vil bli bedt om å oppgi interessekonflikter i tråd med retningslinjene du spesifiserer under</message>
 	<message key="manager.setup.favicon">Ugyldige favicon-format. Akspterte format: .ico, .png og .gif.</message>
-	<message key="manager.setup.filter.lookup.grid.loadMessage">Vent til referansedatabasens konfigureringsgrid er lastet opp ...</message>
-	<message key="manager.setup.filter.lookup.grid.title">Koblinger til referansedatabaser</message>
-	<message key="manager.setup.filter.noMoreTemplates">Alle tilgjengelige transformasjoner har allerede blitt lagt til. Klikk «Avbryt» og returner til oppsettsiden.</message>
-	<message key="manager.setup.filter.parser.grid.descriptionConfirm">Du har valgt å legge til parseren {$filterDisplayName}. Klikk «OK» for å bekrefte.</message>
-	<message key="manager.setup.filter.parser.grid.descriptionTemplate">Velg en referanseparser</message>
-	<message key="plugins.categories.citationOutput">Eksport i referansestil</message>
-	<message key="plugins.categories.citationOutput.description">Programtillegg for referanse å eksportere data implementerer standardene til ulike referansestiler. Dette overstyrer programtillegg for referanseformat.</message>
-	<message key="plugins.categories.citationParser">Hente ut referanse</message>
-	<message key="plugins.categories.citationParser.description">Programtillegg for å hente referanser tar ut data på feltnivå fra ubehandlede referanser (f.eks. forfatter og tittel).</message>
-	<message key="manager.setup.filter.parser.grid.description.paraCite">Tekst</message>
 	<message key="settings.roles.removeText">Vil du fortsette? Du er i ferd med å fjerne denne rollen fra denne sammenhengen. Dette vil også slette relaterte innstillinger og alle brukerene som er oppnevnt til rollen.</message>
 	<message key="manager.setup.sponsors.note">Relasjon til sponsor og beskrivelse av retningslinjer</message>
 	<message key="manager.setup.sponsors.description">Eksempler: akademisk organisasjon, institutt, forskergrupper. Sponsorer blir vist offentlig.</message>
-	<message key="manager.setup.filter.parser.grid.description.parsCit"><![CDATA[<p>Dette filteret er knyttet opp mot <a href="http://aye.comp.nus.edu.sg/parsCit/" target="_blank">ParsCit</a> web service.</p>]]></message>
-	<message key="manager.setup.filter.parser.grid.description.regEx">Filteret RegEx bruker en rekke vanlige uttrykk for å analysere referanser</message>
-	<message key="manager.setup.filter.parser.grid.loadMessage">Vent til referanseparseren har blitt lastet</message>
-	<message key="manager.setup.filter.parser.grid.title">Tjenester for å hente ut referanser</message>
 	<message key="manager.setup.groupType">Filtypegruppering</message>
 	<message key="manager.setup.homepageImage">Hjemmesidebilde</message>
 	<message key="manager.setup.homepageImageDescription">Last opp et bilde som skal vises på hjemmesiden</message>
@@ -475,15 +415,12 @@
 	<message key="manager.setup.layout.blockManagement">Administrasjon av sidemenyen</message>
 	<message key="manager.setup.logo">Logo</message>
 	<message key="manager.setup.notifications">Varsel om innlevering fra forfatter</message>
-	<message key="manager.setup.notifications.copyPrimaryContact">Send en kopi til kontaktpersonen som ble identifsert i Trinn 2 i opprettelsen.</message>
 	<message key="manager.setup.notifications.copySpecifiedAddress">Send en kopi til denne e-postadressen</message>
-	<message key="manager.setup.filter.parser.grid.description.freeCite"><![CDATA[<p>Dette filteret er knyttet opp mot <a href="http://freecite.library.brown.edu/" target="_blank">FreeCite</a> web service.</p>]]></message>
 	<message key="manager.setup.notifications.description">Forfattere blir tilsendt en automatisk e-post som bekrefter innleveringen deres. Du kan sende kopi av denne e-posten til følgende:</message>
 	<message key="manager.setup.openAccessPolicy">Retningslinjer om Open Access</message>
 	<message key="manager.setup.openAccessPolicy.description">Hvis alt publisert innhold skal være åpent tilgjengelig, kan du legge inn en beskrivelse av retningslinjer for åpen tilgang her.</message>
 	<message key="manager.setup.pageFooter">Bunntekst</message>
 	<message key="manager.setup.pageFooterDescription">Legg inn ev. bilder, tekst eller HTML-koder du vil ha synlig nederst på nettstedet ditt.</message>
-	<message key="manager.setup.metaCitationsDescription">Aktiver sjekkboksen for å åpne for redigering av henvisninger og referanser. Dette lar forfattere inkludere ubehandlede henvisninger i innleveringen. Redaktøren vil også ha tilgang til en referansemarkeringshjelper som kan sjekke ubehandlede henvisninger opp mot eksterne databaser, som WorldCat, ISBNdb og PubMed. Godkjente henvisninger kan bli eksportert til galley-filene.</message>
 	<message key="manager.setup.peerReview.description">Beskriv retningslinjene for og arbeidsflyten i fagfellevurderingen for lesere og forfattere. Beskrivelsen inkluderer ofte antall fagfeller som vurderer en innlevering, kriteriene som fagfellene blir bedt om å bruke i vurderingen, forventet tidsbruk og prinsippene for valg av fagfeller.</message>
 	<message key="manager.setup.principalContact">Kontaktperson</message>
 	<message key="manager.setup.principalContactDescription">Skriv inn kontaktinformasjon, vanligvis for redaktør, redaksjonsleder eller andre med administrative oppgaver. Disse kan vises på det offentlig tilgjengelige nettstedet ditt.</message>
@@ -497,7 +434,6 @@
 	<message key="manager.setup.reviewOptions.remindForSubmit">Send en påminnelse om fagfellen ikke har sendt inn sin anbefaling innen følgende tidsrom (dager) etter fristen:</message>
 	<message key="manager.setup.reviewOptions.reviewTime">Standardfrist for fagfellevurdering</message>
 	<message key="manager.setup.reviewOptions.showBlindReviewLink">Vis en lenke til «Hvordan sikre blind fagfellevurdering» under opplastingen</message>
-	<message key="manager.setup.sortableByComponent">Kan sorteres etter komponent</message>
 	<message key="manager.setup.styleSheetDescription">Erfarne nettutviklere kan laste opp en CSS-fil for å tilpasse hvordan nettstedet ser ut</message>
 	<message key="manager.setup.technicalSupportContact">Teknisk kontaktperson</message>
 	<message key="manager.setup.technicalSupportContactDescription">En kontaktperson som kan assistere redaktører, forfattere og fagfeller om de har problemer med å levere inn, redigere, fagfellevurdere eller publisere materiale</message>
@@ -564,4 +500,61 @@
 	<message key="manager.navigationMenus.loggedIn.conditionalWarning">Denne lenken vil bare vises når gjesten ikke er logget inn</message>
 	<message key="manager.navigationMenus.contact.description">Lenke til en side som viser kontaktinformasjonen din</message>
 	<message key="manager.navigationMenus.contact.conditionalWarning"><![CDATA[Denne lenken vil bare vises dersom du har fylt ut kontaktinformasjon under «Innstillinger» > «Kontakt»]]></message>
+	<message key="settings.libraryFiles.public.viewInstructions"><![CDATA[<p>Denne filen kan gjøres tilgjengelig for nedlasting hvis  "Synlig for alle" er krysset av. Nedlastingslenken blir: <blockquote>{$downloadUrl}</blockquote></p>]]></message>
+	<message key="manager.setup.genres.key">Nøkkel</message>
+	<message key="manager.setup.genres.key.description">En valgfri kort symbolsk identifikator for denne sjangeren.</message>
+	<message key="manager.setup.genres.key.exists">Nøkkelen finnes allerede.</message>
+	<message key="manager.setup.genres.key.alphaNumeric">Denne nøkkelen kan bare bestå av alfanumeriske tegn, understrek og bindestrek, og må dessuten begynne og slutte med et alfanumerisk tegn.</message>
+	<message key="manager.reviewFormElements.description">Beskrivelse</message>
+	<message key="plugins.importexport.common.error.missingGivenName">Forfatteren {$authorName} har ikke et fornavn angitt i innsendingens språk, {$localeName}. Innsendingen kan ikke importeres uten denne opplysningen.</message>
+	<message key="plugins.importexport.user.importExportErrors">Import/eksport-feil:</message>
+	<message key="plugins.importexport.user.error.userHasNoPassword">Brukeren "{$username}" i importen har ikke passord. Sjekk XML-importformatet. Brukeren har ikke blitt importert.</message>
+	<message key="plugins.importexport.user.error.passwordHasBeenChanged">Brukeren "{$username}" sitt password kunne ikke importeres. Et nytt passord har blitt sendt til brukerens e-post. Brukeren har blitt importert.</message>
+	<message key="plugins.importexport.user.error.plainPasswordNotValid">Brukeren "{$username}" i importen har et ren-tekst passord som ikke er gyldig. Brukeren har ikke blitt importert.</message>
+	<message key="plugins.importexport.user.error.usernameEmailMismatch">Brukernavnet "{$username}" og e-posten  "{$email}" samsvarer ikke til den ene og samme eksisterende brukeren.</message>
+	<message key="manager.navigationMenus.form.menuAssigned">En navigasjonsmeny er allerede tildelt dette området.</message>
+	<message key="manager.navigationMenus.form.typeMissing">Velg type navigasjonsmeny.</message>
+	<message key="manager.navigationMenus.subscriptions.conditionalWarning"><![CDATA[Denne lenken vises kun hvis betalinger er aktivert under Innstillinger > Distribusjon > Betalinger.]]></message>
+	<message key="manager.navigationMenus.mySubscriptions.conditionalWarning"><![CDATA[Denne lenken vises kun hvis brukeren er logget inn, betalinger er aktivert under Innstillinger > Distribusjon > Betalinger, og abbonement er påkrevet under Innstillinger > Distribusjon > Tilgang.]]></message>
+	<message key="manager.navigationMenus.search.description">Lenke til søkesiden.</message>
+	<message key="manager.navigationMenus.privacyStatement.description">Lenke til siden med personvernerklæringen.</message>
+	<message key="manager.navigationMenus.privacyStatement.conditionalWarning"><![CDATA[Denne lenken blir kun synlig hvis du har fylt ut en personvernerklæring under Innstillinger > Arbeidsflyt > Innlevering]]></message>
+	<message key="grid.category.add">Legg til kategori</message>
+	<message key="grid.category.edit">Rediger kategori</message>
+	<message key="grid.category.name">Navn</message>
+	<message key="grid.category.path">Sti</message>
+	<message key="grid.category.urlWillBe">Kategoriens URL blir: {$sampleUrl}</message>
+	<message key="grid.category.pathAlphaNumeric">Denne kategoristien kan kun bestå av bokstaver og tall.</message>
+	<message key="grid.category.pathExists">Denne kategoristien finnes allerede. Vennligst bruk en unik sti.</message>
+	<message key="grid.category.description">Beskrivelse</message>
+	<message key="grid.category.parentCategory">Foreldrekategori</message>
+	<message key="grid.category.removeText">Er du sikker på at du vil slette denne kategorien?</message>
+	<message key="grid.category.nameRequired">Skriv et kategorinavn</message>
+	<message key="grid.category.categoryDetails">Kategoridetaljer</message>
+	<message key="stats.articlesOfTotal">{$count} av {$total} artikler</message>
+	<message key="stats.daily">Daglig</message>
+	<message key="stats.dateRange">Datointervall</message>
+	<message key="stats.dateRange.allDates">Alle datoer</message>
+	<message key="stats.dateRange.apply">Utfør</message>
+	<message key="stats.dateRange.change">Endre datointervall</message>
+	<message key="stats.dateRange.customRange">Tilpasset intervall</message>
+	<message key="stats.dateRange.dateDoesNotExist">En av de valgte datoene eksisterer ikke.</message>
+	<message key="stats.dateRange.from">Fra</message>
+	<message key="stats.dateRange.instruction">Skriv datoen på formatet ÅÅÅÅ-MM-DD. F.eks, hvis du ønsker datoen for 15. januar 2019 skriver du 2019-01-15.</message>
+	<message key="stats.dateRange.invalidDate">Datoformatet er ikke gyldig. Skriv datoen på formatet ÅÅÅÅ-MM-DD.</message>
+	<message key="stats.dateRange.invalidDateRange">Startdato må være før sluttdato.</message>
+	<message key="stats.dateRange.invalidEndDateMax">Sluttdato kan ikke være senere enn {$date}.</message>
+	<message key="stats.dateRange.invalidStartDateMin">Startdato kan ikke være tidligere enn {$date}.</message>
+	<message key="stats.dateRange.last12Months">Siste 12 måneder</message>
+	<message key="stats.dateRange.last30Days">Siste 30 dager</message>
+	<message key="stats.dateRange.last90Days">Siste 90 dager</message>
+	<message key="stats.dateRange.sinceDate">Fra {$date}</message>
+	<message key="stats.dateRange.to">Til</message>
+	<message key="stats.dateRange.untilDate">Til {$date}</message>
+	<message key="stats.fileViews">Filvisninger</message>
+	<message key="stats.html">HTML</message>
+	<message key="stats.monthly">Månedlig</message>
+	<message key="stats.pdf">PDF</message>
+	<message key="stats.searchSubmissionDescription">Søk på tittel, forfatter og ID</message>
+	<message key="stats.total">Totalt</message>
 </locale>
