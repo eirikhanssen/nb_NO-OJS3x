@@ -17,8 +17,6 @@
 	<message key="plugins.generic.orcidProfile.instructions">Du kan fylle ut dette skjemaet med informasjon fra en ORCID-profil. Skriv inn e-postadressen eller identiteten (iD) knyttet til ORCID-profilen. Klikk så «Send inn».</message>
 	<message key="plugins.generic.orcidProfile.noData">Kunne ikke finne data fra ORCID</message>
 	<message key="plugins.generic.orcidProfile.emailOrOrcid">E-postadresse eller ORCID-identitet</message>
-	<message key="plugins.generic.orcidProfile.submitAction">Send inn</message>
-	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">Innstilllinger for ORCID-profilen</message>
 	<message key="plugins.generic.orcidProfile.manager.settings.description">Konfigurer ORCID API for å hente ut informasjon fra ORCID-profilen til brukerprofilen.</message>
 	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID API</message>
 	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Offentlig</message>
@@ -27,10 +25,42 @@
 	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Medlemmets Sandbox</message>
 	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">Klientens ID</message>
 	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">Klienten hemmelig</message>
-	<message key="plugins.generic.orcidProfile.author.submission">ORCID for innleveringen</message>
-	<message key="plugins.generic.orcidProfile.author.submission.success">Innleveringen din har blitt knyttet til ORCID-identiteten din</message>
-	<message key="plugins.generic.orcidProfile.author.submission.failure">Innleveringen din kunne ikke knyttes til ORCID-identieten din. Ta kontakt med redaksjonslederen. Oppgi navn, ORCID-identitet og detaljer om innleveringen din.</message>
 	<message key="plugins.generic.orcidProfile.authFailure">OJS kunne ikke kommunisere med ORCID-tjenesten. Ta kontakt med redaksjonslederen. Oppgi navn, ORCID-identitet og detaljer om innleveringen din.</message>
 	<message key="plugins.generic.orcidProfile.fieldset">ORCID</message>
 	<message key="plugins.generic.orcidProfile.connect">Opprett eller koble til ORCID-identiteten din</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.title">ORCID API innstillinger</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.hidden">skjult</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description.globallyconfigured">ORCID API ble konfigurert globalt av verten. Følgende legitimering har blitt lagret.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidScope">Profile Access Scope</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.mailSectionTitle">E-Mail innstillinger</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication">Send e-mail for å forespørre ORCID autorisering fra aftikkelforfattere ved publisering av nytt nummer.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.logSectionTitle">ORCID forespørsel logg</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.logLevel.help">Velg hva som skal logges av programtillegget</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.logLevel.error">Feil</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.logLevel.all">Alt</message>
+	<message key="plugins.generic.orcidProfile.author.accessDenied">ORCID tilgang ble avvist ved</message>
+	<message key="plugins.generic.orcidProfile.author.accessTokenStored">ORCID oppføring gitt tilgang med omfang {$orcidAccessScope}, gyldig til</message>
+	<message key="plugins.generic.orcidProfile.author.requestAuthorization">Send e-post for å be om ORCID</message>
+	<message key="plugins.generic.orcidProfile.author.deleteORCID">Slett ORCID iD og tilgangstoken!</message>
+	<message key="plugins.generic.orcidProfile.author.orcidEmptyNotice">Se under for å forespørre autentisert ORCID iD</message>
+	<message key="plugins.generic.orcidProfile.author.unauthenticated">ORCID iD ble ikke autentisert! Vennligst be om autentisering fra bidragsyteren.</message>
+	<message key="plugins.generic.orcidProfile.verify.title">ORCID autentisering</message>
+	<message key="plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success">Innleveringen har blitt lagt til din ORCID oppføring</message>
+	<message key="plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure">Innleveringen kunne ikke legges til din ORCID oppføring.</message>
+	<message key="plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished">Innleveringen vil bli lagt til din ORCID oppføring ved publisering.</message>
+	<message key="plugins.generic.orcidProfile.verify.success">Din ORCID iD har blitt verifisert og assosisert med innleveringen.</message>
+	<message key="plugins.generic.orcidProfile.verify.failure">Din ORCID iD kunne ikke verifiseres. Lenken er ikke lengre gyldig.</message>
+	<message key="plugins.generic.orcidProfile.verify.duplicateOrcid">En ORCID iD har allerede blitt lagret for denne innleveringen.</message>
+	<message key="plugins.generic.orcidProfile.verify.denied">Du tillot ikke tilgang til din ORCID oppføring.</message>
+	<message key="plugins.generic.orcidProfile.failure.contact">Vennligst kontakt ansvarlig redaktør med ditt navn, ORCID iD, og informasjon om din innlevering.</message>
+	<message key="plugins.generic.orcidProfile.authorise">Autoriser og koble til din ORCID iD</message>
+	<message key="plugins.generic.orcidProfile.about.title">Hva er ORCID?</message>
+	<message key="plugins.generic.orcidProfile.about.orcidExplanation"><![CDATA[ORCID er en uavhengig organisasjon som tilbyr en vedvarende identifikator - en ORCID iD - som skiller deg fra andre forskere og en mekanisme for å knytte forskningsresultater og aktiviteter til din iD. ORCID er integrert i mange systemer som brukes av utgivere, finansierere, institusjoner og andre forskningsrelaterte tjenester. Les mer på <a href="https://orcid.org"> orcid.org </a>.]]></message>
+	<message key="plugins.generic.orcidProfile.about.howAndWhy.title">Hvordan og hvorfor samler vi inn ORCID iD?</message>
+	<message key="plugins.generic.orcidProfile.about.howAndWhy"><![CDATA[Dette tidsskriftet samler inn ORCID iD, så vi kan [legge til formål og skille mellom medlem API og offentlig API].
+Når du klikker på "Authorize" -knappen i ORCID-popupen, vil vi be deg om å dele din iD ved hjelp av en autentisert prosess: enten ved <a href = "https://support.orcid.org/hc/en-us/articles / 360006897454 "> registrerer for en ORCID iD </a> eller, hvis du allerede har en, <a href="https://support.orcid.org/hc/en-us/categories/360000661673"> logge på ORCID-kontoen din </a>, og gir oss tillatelse til å få ORCID-ID-en din. Vi gjør dette for å sikre at du er korrekt identifisert og sikkert koblet til ORCID iD. <br>
+Finn ut mer i <a href="https://orcid.org/blog/2017/02/20/whats-so-special-about-signing"> Hva er så spesielt med å logge på? </a>]]></message>
+	<message key="plugins.generic.orcidProfile.about.display.title">Hvor blir ORCID iD vist?</message>
+	<message key="plugins.generic.orcidProfile.about.display"><![CDATA[For å bekrefte at du har brukt iD og at den er autentisert, viser vi ORCID iD-ikonet <img src = "https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt = "ID-ikonet" width = "16" height = "16" border = "0"> ved siden av navnet ditt på artikkelsiden for innleveringen din og på din offentlige brukerprofil. <br>
+Lær mer i <a href="https://orcid.org/blog/2013/02/22/how-should-orcid-id-be-displayed"> Hvordan skal en ORCID iD bli vist. </a>]]></message>
 </locale>
