@@ -34,14 +34,12 @@
 	<message key="installer.databasePassword">Passord</message>
 	<message key="installer.databaseSettings">Databaseinnstillinger</message>
 	<message key="installer.databaseUsername">Brukernavn</message>
-	<message key="installer.encryption">Krypteringsalgoritme for passord</message>
 	<message key="installer.filesDir">Mappe for opplastede filer</message>
 	<message key="installer.fileSettings">Filinnstillinger</message>
 	<message key="installer.form.clientCharsetRequired">Du må velge et tegnsett</message>
 	<message key="installer.form.databaseDriverRequired">Du må velge en databasedriver</message>
 	<message key="installer.form.databaseNameRequired">Du må legge inn et navn på databasen</message>
 	<message key="installer.form.emailRequired">Du må ha en gyldig e-postadresse for administratorkontoen</message>
-	<message key="installer.form.encryptionRequired">Du må velge en algoritme for å kryptere brukerpassord</message>
 	<message key="installer.form.filesDirRequired">Du må ha en mappe for lagring av opplastede filer</message>
 	<message key="installer.form.localeRequired">Du må velge en språkpakke</message>
 	<message key="installer.form.passwordRequired">Du må ha et passord for administratorkontoen</message>
@@ -61,7 +59,6 @@
 	<message key="installer.oaiRepositoryId">OAI-arkividentifikator</message>
 	<message key="installer.publicFilesDirError">Mappen for offentlige filer finnes ikke eller er ikke overskrivbar</message>
 	<message key="installer.releaseNotes">Lanseringsnotater</message>
-	<message key="installer.securitySettings">Sikkerhetsinnstillinger</message>
 	<message key="installer.installParseEmailTemplatesFileError"><![CDATA[Feil ved parsing av e-postmal <tt>{$file}</tt>]]></message>
 	<message key="installer.locale.maybeIncomplete">De merkede språkpakkefilene kan være mangelfulle</message>
 	<message key="installer.oaiSettings">OAI-innstillinger</message>
@@ -81,4 +78,5 @@
 	<message key="installer.configureXSLMessage"><![CDATA[<p> PHP-innstallasjonen din har ikke aktivert den nødvendige XSL-modulen. Du kan enten skru den på eller konfigurere xslt_command parameter i config.inc.php file.</p>]]></message>
 	<message key="installer.beacon">Beacon</message>
 	<message key="installer.beacon.enable">Legg til en unik nettsteds-ID og OAI base-URL til PKP for statistikk og sikkerhetsvarsler</message>
+	<message key="installer.unsupportedPhpError">Serveren sin PHP-versjon støttes ikke av denne programvaren. Dobbeltsjekk installasjonskravene i docs/README.</message>
 </locale>
