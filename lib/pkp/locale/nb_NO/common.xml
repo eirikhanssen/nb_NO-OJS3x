@@ -88,7 +88,7 @@
 	<message key="common.fileSize">Filstørrelse</message>
 	<message key="common.fileType">Filtype</message>
 	<message key="common.file.namingPattern">{$username}, {$userGroup}, {$originalFilename}</message>
-	<message key="common.file.anonymousNamingPattern">{$userGroup}, {$originalFilename}</message>
+	<message key="common.file.anonymousNamingPattern">{$genre}, {$originalFilename}</message>
 	<message key="common.height">Høyde</message>
         <message key="common.filter">Filter</message>
         <message key="common.filterAdd">Legg till filter: {$filterTitle}</message>
@@ -526,4 +526,21 @@
 	<message key="notification.addedNavigationMenu">Navigasjonsmenyen ble lagt til</message>
 	<message key="notification.editedNavigationMenu">Navigasjonsmenyen ble oppdatert</message>
 	<message key="notification.removedNavigationMenu">Navigasjonsmenyen ble fjernet</message>
+	<message key="list.viewMore">Vis ekstra detaljer om {$name}</message>
+	<message key="list.viewLess">Skjul ekstra detaljer om {$name}</message>
+	<message key="stageParticipants.notify.startDiscussion">Start diskusjon</message>
+	<message key="stageParticipants.notify.startDiscussion.description">Start en diskusjon mellom deg og {$userFullName}.</message>
+	<message key="email.compose.error">Sending av epost feilet. Prøv igjen senere eller kontakt systemadministratoren.</message>
+	<message key="common.lessThan">{$value} eller mindre</message>
+	<message key="common.commaListSeparator">,</message>
+	<message key="common.semicolonListSeparator">;</message>
+	<message key="common.moreThan">{$value} eller mer</message>
+	<message key="common.pagination">{$start}-{$end} av {$total}</message>
+	<message key="common.pagination.label">Vis flere sider</message>
+	<message key="common.pagination.goToPage">Gå til {$page}</message>
+	<message key="common.pagination.next">Neste side</message>
+	<message key="common.pagination.previous">Forrige side</message>
+	<message key="common.clearSearch">Nullstill søk</message>
+	<message key="common.publicAccess">Synlig for alle</message>
+	<message key="common.dateDecided">Beslutningsdato</message>
 </locale>
