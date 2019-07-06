@@ -72,7 +72,7 @@
 	<message key="plugins.generic.usageStats.optout.done"><![CDATA[<p>Du har valgt vekk innsamling av bruksstatistikk. Mens du ser denne meldingen, blir det ikke oppsamlet statikk fra bruken av dette nettstedet. Klikk på knappen nedenfor for å omgjøre din beslutning.</p>]]></message>
 	<message key="plugins.generic.usageStats.optin">Aktiver innsamling av bruksstatistikk</message>
 	<message key="plugins.generic.usageStats.optout">Deaktiver innsamling av bruksstatistikk</message>
-	<message key="plugins.generic.usageStats.optout.cookie"><![CDATA[<p> Hvis du ønsker det, kan du velge bort innstamling av bruksstatistikk. Ved å klikke på valgknappen nedenfor, kan du aktivt bestemme seg for å delta i statistisk analyse. Når du klikker på knappen "Aktiver innsamling av bruksstatistikk", opprettes <em> informasjonskapsel </ em> på systemet ditt for å lagre avgjørelsen. Hvis personverninnstillingene i nettleseren din fører til at informasjonskapsler slettes automatisk, må du gjøre detet om igjen neste gang du får tilgang til denne nettsiden. Cookien er bare gyldig for en nettleser. Hvis du bruker en annen nettleser, må du gjøre valget igjen. Ingen individuell informasjon lagres i denne informasjonskapselen. Denne cookie gjelder for ett år etter siste tilgang. </p>
+	<message key="plugins.generic.usageStats.optout.cookie"><![CDATA[<p> Hvis du ønsker det, kan du velge bort innstamling av bruksstatistikk. Ved å klikke på valgknappen nedenfor, kan du aktivt bestemme seg for å delta i statistisk analyse. Når du klikker på knappen "Aktiver innsamling av bruksstatistikk", opprettes <em> informasjonskapsel </em> på systemet ditt for å lagre avgjørelsen. Hvis personverninnstillingene i nettleseren din fører til at informasjonskapsler slettes automatisk, må du gjøre detet om igjen neste gang du får tilgang til denne nettsiden. Cookien er bare gyldig for en nettleser. Hvis du bruker en annen nettleser, må du gjøre valget igjen. Ingen individuell informasjon lagres i denne informasjonskapselen. Denne cookie gjelder for ett år etter siste tilgang. </p>
 <p> Vær oppmerksom på at generelle serverlogger ikke påvirkes av din beslutning om å velge bort den detaljerte evalueringsprosessen. Vennligst se vår generelle <a href="{$privacyStatementUrl}"> personvernerklæring </a>. </p>]]></message>
 	<message key="plugins.generic.usageStats.statsSum">Sum av alle filnedlastinger</message>
 	<message key="plugins.generic.usageStats.noStats">Nedlastingsdata er ikke tilgjengelig enda</message>
@@ -82,7 +82,7 @@
 	<message key="plugins.generic.usageStats.optout.description.long.ojs2"><![CDATA[<h3> Generell informasjon om personvern </h3>
 <p> Vennligst se vår generelle <a href="{$privacyStatementUrl}"> personvernerklæring </a>. </p>
 <h3>Bruksstatistikk </h3>
-<p> For å kunne analysere bruken og virkningen av vår journal og de publiserte artiklene samler og logger vi tilgang til journalens hjemmeside, utgaver, artikler, gallerier og tilleggsfiler. I prosessen er alle data anonymisert. Ingen personlig informasjon er logget. IP-adresser anonymiseres ved å ha hashed (bruk <em> SHA 256 </ em>) i kombinasjon med <em> sikre 64 tegn langt salt </ em> som automatisk blir <em> tilfeldig generert og overstyrt på daglig basis < / em>. Derfor kan ikke IP-adresser rekonstrueres. </p>
+<p> For å kunne analysere bruken og virkningen av vår journal og de publiserte artiklene samler og logger vi tilgang til journalens hjemmeside, utgaver, artikler, gallerier og tilleggsfiler. I prosessen er alle data anonymisert. Ingen personlig informasjon er logget. IP-adresser anonymiseres ved å ha hashed (bruk <em> SHA 256 </em>) i kombinasjon med <em> sikre 64 tegn langt salt </em> som automatisk blir <em> tilfeldig generert og overstyrt på daglig basis </em>. Derfor kan ikke IP-adresser rekonstrueres. </p>
 <p> Følgende informasjon er samlet ved siden av de anonyme IP-adressene: </p>
 <ul>
 <li> Tilgangstype (dvs. administrativ) </li>
@@ -93,10 +93,10 @@
 </ul>
 <p> Samlet data brukes kun til evalueringsformål. Ingen IP-adresser er kartlagt til bruker-IDer. Det er teknisk umulig å spore et bestemt sett med data til en bestemt IP-adresse. </p>]]></message>
 	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.siteWide.omp">Hvert forlag kan overstyre disse innstillingene fra forlagets programtilleggs-side.</message>
-	<message key="plugins.generic.usageStats.optout.description.long.omp"><![CDATA[<h3> Generell informasjon om personvern </ h3>
+	<message key="plugins.generic.usageStats.optout.description.long.omp"><![CDATA[<h3> Generell informasjon om personvern </h3>
 <p> Vennligst se vår generelle <a href="{$privacyStatementUrl}"> personvernerklæring </a>. </p>
-<h3> Brukestatistikk </ h3>
-<p> For å kunne analysere bruken og virkningen av våre publikasjoner samler og logger vi inn tilgang til startsiden, kategorier, serier, bøker og filer. I prosessen er alle data anonymisert. Ingen personlig informasjon er logget. IP-adresser anonymiseres ved å ha hashed (bruk <em> SHA 256 </em>) i kombinasjon med <em> sikre 64 tegn langt salt </em> som automatisk blir <em> tilfeldig generert og overstyrt på daglig basis < / em>. Derfor kan ikke IP-adresser rekonstrueres. </p>
+<h3> Brukestatistikk </h3>
+<p> For å kunne analysere bruken og virkningen av våre publikasjoner samler og logger vi inn tilgang til startsiden, kategorier, serier, bøker og filer. I prosessen er alle data anonymisert. Ingen personlig informasjon er logget. IP-adresser anonymiseres ved å ha hashed (bruk <em> SHA 256 </em>) i kombinasjon med <em> sikre 64 tegn langt salt </em> som automatisk blir <em> tilfeldig generert og overstyrt på daglig basis </em>. Derfor kan ikke IP-adresser rekonstrueres. </p>
 <p> Følgende informasjon er samlet ved siden av de anonyme IP-adressene: </p>
 <ul>
 <li> Tilgangstype (dvs. administrativ) </li>
