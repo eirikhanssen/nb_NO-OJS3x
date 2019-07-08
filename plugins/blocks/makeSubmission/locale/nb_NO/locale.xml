@@ -12,7 +12,7 @@
   -->
 
 <locale name="nb_NO" full_name="Norsk bokmål">
-	<message key="plugins.block.makeSubmission.displayName">«Send inn ditt manus»</message>
+	<message key="plugins.block.makeSubmission.displayName">«Send inn ditt manus» blokk</message>
 	<message key="plugins.block.makeSubmission.description">Dette programtillegget oppretter en blokk i sidemenyen som lenker til «Send inn ditt manus».</message>
 	<message key="plugins.block.makeSubmission.linkLabel">Send inn ditt manuskript</message>
 </locale>
